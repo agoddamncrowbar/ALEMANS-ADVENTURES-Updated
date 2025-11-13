@@ -1,72 +1,71 @@
 import { useState } from "react";
 import { motion } from "framer-motion";
+import { useNavigate } from "react-router-dom";
 
 export default function DestinationsHeader({
   currentCountry = "Kenya",
-  onCountryChange,
+  onSectionChange,
 }: {
   currentCountry?: string;
-  onCountryChange?: (country: string) => void;
+  onSectionChange?: (section: string) => void;
 }) {
   const [menuOpen, setMenuOpen] = useState(false);
+  const navigate = useNavigate();
 
-  const countries = ["Kenya", "Tanzania & Zanzibar", "Uganda", "Rwanda"];
+  const countries = ["Kenya", "Tanzania", "Uganda", "Rwanda", "Zanzibar"];
+
+  const countryRoutes: Record<string, string> = {
+    Kenya: "/destinations/kenya",
+    Tanzania: "/destinations/tanzania",
+    Uganda: "/destinations/uganda",
+    Rwanda: "/destinations/rwanda",
+    Zanzibar: "/destinations/zanzibar",
+  };
+
   const sections: Record<string, string[]> = {
     Kenya: [
       "Travel Info",
       "National Parks",
       "Safaris",
       "Trekking & Hiking",
-      "Water Rafting",
       "Cultural & Sports",
-      "Extreme Adventures",
-      "Photographic Safaris",
       "Beach & Water Sports",
     ],
-    "Tanzania & Zanzibar": [
+    Tanzania: [
       "Travel Info",
-      "Zanzibar & Pemba",
       "National Parks",
-      "Budget Safaris",
+      "Safaris",
       "Luxury Safaris",
-      "Mountain Hiking",
     ],
-    Uganda: [
-      "Travel Info",
-      "National Parks",
-      "Popular Safaris",
-      "Gorilla & Chimpanzee Tracking",
-      "Rafting & Hiking",
-    ],
-    Rwanda: [
-      "Travel Info",
-      "National Parks",
-      "Budget Safaris",
-      "Luxury Safaris",
-      "Popular Safaris",
-    ],
+    Uganda: ["Travel Info", "National Parks", "Safaris"],
+    Rwanda: ["Travel Info", "National Parks", "Safaris"],
+    Zanzibar: ["Travel Info", "National Parks", "Safaris"],
   };
 
   const currentSections = sections[currentCountry] || [];
 
-  return (
+  const handleCountryChange = (country: string) => {
+    navigate(countryRoutes[country] || "/destinations/kenya");
+  };
+
+return (
     <div className="bg-[#0F0809] border-b border-[#F5D547]/30 text-[#F5D547]/90 sticky top-16 z-40">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-3 flex flex-col md:flex-row md:items-center md:justify-between gap-3">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 flex flex-col md:flex-row md:items-center md:justify-between gap-4">
         {/* Country Selector */}
-        <div className="flex items-center gap-2">
-          <label className="text-xs uppercase tracking-widest text-[#F5D547]/60">
+        <div className="flex items-center gap-3">
+          <label className="text-xs uppercase tracking-widest text-[#F5D547]/60 font-medium">
             Country:
           </label>
           <select
-            className="bg-transparent border border-[#F5D547]/40 text-[#F5D547] text-sm px-3 py-1 rounded-md focus:outline-none focus:border-[#F5D547] hover:border-white transition"
+            className="bg-[#0F0809] border border-[#F5D547]/40 text-[#F5D547] text-sm px-4 py-2 rounded-md focus:outline-none focus:border-[#F5D547] hover:border-[#F5D547] transition cursor-pointer"
             value={currentCountry}
-            onChange={(e) => onCountryChange?.(e.target.value)}
+            onChange={(e) => handleCountryChange(e.target.value)}
           >
             {countries.map((country) => (
               <option
                 key={country}
                 value={country}
-                className="bg-[#1A0A0B] text-[#F5D547] hover:bg-[#F5D547] hover:text-[#1A0A0B]"
+                className="bg-[#0F0809] text-[#F5D547] py-2"
               >
                 {country}
               </option>
@@ -74,29 +73,26 @@ export default function DestinationsHeader({
           </select>
         </div>
 
-        {/* Section Links */}
-        <div className="hidden md:flex gap-6 text-xs uppercase tracking-widest">
+        {/* Section Buttons */}
+        <div className="hidden md:flex gap-8 text-xs uppercase tracking-widest">
           {currentSections.map((section) => (
-            <a
+            <button
               key={section}
-              href={`#${section.replace(/\s+/g, "-").toLowerCase()}`}
-              className="relative hover:text-white transition group"
+              onClick={() => onSectionChange?.(section)}
+              className="relative hover:text-white transition-colors duration-200 pb-1 group"
             >
               {section}
-              <motion.span
-                layoutId="underline"
-                className="absolute bottom-0 left-0 w-0 h-px bg-[#F5D547] group-hover:w-full transition-all duration-300"
-              />
-            </a>
+              <span className="absolute bottom-0 left-0 w-full h-[2px] bg-[#F5D547] scale-x-0 group-hover:scale-x-100 transition-transform duration-300 origin-left" />
+            </button>
           ))}
         </div>
 
         {/* Mobile Dropdown Toggle */}
         <button
           onClick={() => setMenuOpen(!menuOpen)}
-          className="md:hidden text-[#F5D547] text-sm uppercase tracking-widest"
+          className="md:hidden text-[#F5D547] text-sm uppercase tracking-widest hover:text-white transition-colors"
         >
-          Sections ▾
+          Sections {menuOpen ? "▴" : "▾"}
         </button>
       </div>
 
@@ -109,14 +105,16 @@ export default function DestinationsHeader({
           className="md:hidden border-t border-[#F5D547]/20 bg-[#120809]/95"
         >
           {currentSections.map((section) => (
-            <a
+            <button
               key={section}
-              href={`#${section.replace(/\s+/g, "-").toLowerCase()}`}
-              className="block py-3 px-4 text-xs text-[#F5D547]/80 hover:text-white hover:bg-[#F5D547]/10 uppercase tracking-widest border-l-2 border-transparent hover:border-[#F5D547] transition-all"
-              onClick={() => setMenuOpen(false)}
+              onClick={() => {
+                onSectionChange?.(section);
+                setMenuOpen(false);
+              }}
+              className="block w-full text-left py-3 px-6 text-xs text-[#F5D547]/80 hover:text-white hover:bg-[#F5D547]/10 uppercase tracking-widest border-l-2 border-transparent hover:border-[#F5D547] transition-all"
             >
               {section}
-            </a>
+            </button>
           ))}
         </motion.div>
       )}
