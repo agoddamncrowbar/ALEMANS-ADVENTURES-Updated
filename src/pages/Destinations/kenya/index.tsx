@@ -3,6 +3,8 @@ import DestinationsHeader from "../../../components/DestinationsHeader";
 import KenyaHero from "../../../components/destinations/KenyaHero";
 import TravelInfo from "./TravelInfo"
 import NationalParks from "./NationalParks/NationalParks";
+import Safaris from "./Safaris/Safaris";
+
 import { useState } from "react";
 
 export default function Kenya() {
@@ -24,6 +26,8 @@ export default function Kenya() {
         {/* add sections here */}
         {activeSection === "Travel Info" && <TravelInfo />}
         {activeSection === "National Parks" && <NationalParks/> } 
+        {activeSection === "Safaris" && <Safaris />}
+
         
       </div>
     </Layout>
