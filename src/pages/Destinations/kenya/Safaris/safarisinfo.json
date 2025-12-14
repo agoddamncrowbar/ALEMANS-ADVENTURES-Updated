@@ -29,11 +29,11 @@
               },
               "images": [
                 {
-                  "src": "/images/safaris/maasai-mara/overview.jpg",
+                  "src": "/images/safaris/kenya/maasai-mara/image.png",
                   "alt": "Maasai Mara savannah"
                 },
                 {
-                  "src": "/images/safaris/maasai-mara/game-drive.jpg",
+                  "src": "/images/safaris/kenya/maasai-mara/image2.jpg",
                   "caption": "Morning game drive"
                 }
               ],
@@ -99,6 +99,16 @@
               "title": "Nairobi City Tour",
               "destination": "Nairobi",
               "durationLabel": "3 Hours",
+              "images": [
+                {
+                  "src": "/images/safaris/kenya/excursions/nairobi.jpg",
+                  "alt": "Maasai Mara savannah"
+                },
+                {
+                  "src": "/images/safaris/kenya/excursions/nairobi1.jpg",
+                  "caption": "Morning game drive"
+                }
+              ],
               "description": "Take a guided tour of the city to visit the principal landmarks including Capitol Hill, National Museum with its paleontology hall, Snake Park, Railway Museum and City Market.",
               "categoryPath": ["Kenya Excursions", "Nairobi Excursions"],
               "prices": null
@@ -111,6 +121,16 @@
               "durationLabel": "4 Hours",
               "description": "Visit the home of former coffee farmer Karen Blixen, now preserved as a museum. Proceed to the Giraffe Manor where you can feed rare Rothschild giraffe. End the tour with a visit to the Ostrich Park.",
               "categoryPath": ["Kenya Excursions", "Nairobi Excursions"],
+              "images": [
+                {
+                  "src": "/images/safaris/kenya/excursions/karenblixen.jpg",
+                  "alt": "Maasai Mara savannah"
+                },
+                {
+                  "src": "/images/safaris/kenya/excursions/karenblixen1.jpg",
+                  "caption": "Morning game drive"
+                }
+              ],
               "prices": {
                 "lowSeason": { "1-2": 125, "3-4": 166, "5-6": 210, "7-8": 252 },
                 "peakSeason": { "1-2": 125, "3-4": 166, "5-6": 210, "7-8": 255 }
@@ -124,6 +144,16 @@
               "durationLabel": "3 Hours (Upon Request)",
               "description": "Enjoy a cross-section of folk dances from various tribes in the country. Experience the culture as depicted by the recreated African villages with the chance to buy local handicrafts.",
               "categoryPath": ["Kenya Excursions", "Nairobi Excursions"],
+              "images": [
+                {
+                  "src": "/images/safaris/kenya/excursions/bomas.jpg",
+                  "alt": "Maasai Mara savannah"
+                },
+                {
+                  "src": "/images/safaris/kenya/excursions/bomas1.jpg",
+                  "caption": "Morning game drive"
+                }
+              ],
               "prices": null
             },
             {
@@ -134,6 +164,20 @@
               "durationLabel": "4 Hours",
               "description": "Approximately 8 kilometers from the city centre, enter the Nairobi National Park to view lions, cheetahs, buffaloes, impala, giraffes and ostriches roaming in untouched savannah and indigenous forest.",
               "categoryPath": ["Kenya Excursions", "Nairobi Excursions"],
+              "images": [
+                {
+                  "src": "/images/safaris/kenya/excursions/nat_park.jpg",
+                  "alt": "Maasai Mara savannah"
+                },
+                {
+                  "src": "/images/safaris/kenya/excursions/nat_park1.jpg",
+                  "caption": "Morning game drive"
+                },
+                {
+                  "src": "/images/safaris/kenya/excursions/nat_park2.jpg",
+                  "caption": "Morning game drive"
+                }
+              ],
               "prices": {
                 "lowSeason": { "1-2": 320, "3-4": 540, "5-6": 740, "7-8": 940 },
                 "peakSeason": { "1-2": 320, "3-4": 540, "5-6": 740, "7-8": 940 }
@@ -147,6 +191,12 @@
               "durationLabel": "Night Experience",
               "description": "Dinner at a Brazilian style restaurant offering exotic grilled meat such as crocodile, zebra and chicken dishes, all roasted on a huge wood fire. Includes nightclub or casino visit.",
               "categoryPath": ["Kenya Excursions", "Nairobi Excursions"],
+              "images": [
+                {
+                  "src": "/images/safaris/kenya/excursions/nainight.jpg",
+                  "alt": "Photo by John Osogo"
+                }
+              ],
               "prices": {
                 "lowSeason": { "1-2": 120, "4-5": 100, "5-6": 80, "7-8": 60 },
                 "peakSeason": { "1-2": 120, "4-5": 100, "5-6": 80, "7-8": 60 }
@@ -160,6 +210,16 @@
               "durationLabel": "Lunch or Dinner",
               "description": "Guaranteed daily at 12.30pm and 7.00pm. Carnivore offers a variety of meat served in one meal including exotic and barbecue dishes.",
               "categoryPath": ["Kenya Excursions", "Nairobi Excursions"],
+              "images": [
+                {
+                  "src": "/images/safaris/kenya/excursions/carnivore.jpg",
+                  "alt": "Carnivore Restaurant"
+                },
+                {
+                  "src": "/images/safaris/kenya/excursions/carnivore1.jpg",
+                  "caption": "Carnivore Experience"
+                }
+              ],
               "prices": {
                 "lowSeason": { "1-2": 180, "3-4": 240, "5-6": 300, "7-8": 360 },
                 "peakSeason": { "1-2": 180, "3-4": 240, "5-6": 300, "7-8": 360 }
@@ -173,6 +233,20 @@
               "durationLabel": "1 Day",
               "description": "Drive down the escarpment to Lake Naivasha. After a guided tour and buffet lunch beside the lake, enjoy a two-hour boat ride to Crescent Island to walk among plains game and birdlife.",
               "categoryPath": ["Kenya Excursions", "Nairobi Excursions"],
+              "images": [
+                {
+                  "src": "/images/safaris/kenya/excursions/lnaivasha.jpg",
+                  "alt": "Lake Naivasha"
+                },
+                {
+                  "src": "/images/safaris/kenya/excursions/lnaivasha1.jpg",
+                  "caption": "Lake Naivasha Boat Ride"
+                },
+                {
+                  "src": "/images/safaris/kenya/excursions/lnaivasha2.jpg",
+                  "caption": "Lake Naivasha national park"
+                }
+              ],
               "prices": {
                 "lowSeason": { "1-2": 300, "3-4": 440, "5-6": 580, "7-8": 720 },
                 "peakSeason": { "1-2": 300, "3-4": 440, "5-6": 580, "7-8": 720 }
@@ -185,6 +259,16 @@
               "destination": "Lake Nakuru",
               "durationLabel": "1 Day",
               "description": "Descend the escarpment into dramatic landscapes en route to Lake Nakuru, famous for flamingos and wildlife. Full park tour with lunch served inside the park.",
+              "images": [
+                {
+                  "src": "/images/safaris/kenya/excursions/lnakuru.jpg",
+                  "alt": "Lake Nakuru"
+                },
+                {
+                  "src": "/images/safaris/kenya/excursions/lnakuru1.jpg",
+                  "caption": "Lake nakuru"
+                }
+              ],
               "categoryPath": ["Kenya Excursions", "Nairobi Excursions"],
               "prices": {
                 "lowSeason": { "1-2": 360, "3-4": 560, "5-6": 760, "7-8": 960 },
@@ -199,6 +283,20 @@
               "durationLabel": "1.5 Days",
               "description": "Drive through Kikuyu countryside to Outspan/Aberdare/Mt. Kenya Guest House. Next morning visit Solio Ranch, a unique sanctuary for black and white rhinos, lions, cheetahs and plains game. Picnic lunch included.",
               "categoryPath": ["Kenya Excursions", "Nairobi Excursions"],
+              "images": [
+                {
+                  "src": "/images/safaris/kenya/excursions/solio.jpg",
+                  "alt": "Solio Ranch"
+                },
+                {
+                  "src": "/images/safaris/kenya/excursions/solio1.jpg",
+                  "caption": "Solio Ranch Rhino Sanctuary"
+                },
+                {
+                  "src": "/images/safaris/kenya/excursions/solio2.jpg",
+                  "caption": "Solio Ranch Wildlife"
+                }
+              ],
               "prices": {
                 "lowSeason": { "1-2": 360, "4-5": 560, "5-6": 760, "7-8": 960 },
                 "peakSeason": { "1-2": 360, "4-5": 560, "5-6": 760, "7-8": 960 }
@@ -271,6 +369,16 @@
               "durationLabel": "1 Day",
               "description": "Early morning drive 100 Km inland to Tsavo East National Park. Enter the park and start viewing game, stop at Aruba Dam en route to a lodge for lunch. After another game drive, return to Mombasa.",
               "categoryPath": ["Kenya Excursions", "Mombasa Excursions"],
+              "images": [
+                {
+                  "src": "/images/safaris/kenya/excursions/tsavo1.jpg",
+                  "alt": "Maasai Mara savannah"
+                },
+                {
+                  "src": "/images/safaris/kenya/excursions/tsavo.jpg",
+                  "caption": "Morning game drive"
+                }
+              ],
               "prices": {
                 "lowSeason": { "1-2": 360, "3-4": 560, "5-6": 760, "7-8": 960 },
                 "peakSeason": { "1-2": 360, "3-4": 560, "5-6": 760, "7-8": 960 }
@@ -282,7 +390,40 @@
               "title": "2 Days Tsavo East",
               "destination": "Tsavo East",
               "durationLabel": "2 Days",
-              "description": "Day 1: Morning drive to Bachuma Gate and enter Tsavo East Park, viewing game en route to Voi Safari Lodge / Sentrim / Ngulia / Aruba Ashnil for lunch.\nDay 2: Early morning game drive. Relax and return to Mombasa after lunch.",
+              "description": "A two-day excursion to Tsavo East National Park including game drives and overnight accommodation at a safari lodge.",
+              "images": [
+                {
+                  "src": "/images/safaris/kenya/excursions/tsavo.jpg",
+                  "alt": "Tsavo East National Park"
+                },
+                {
+                  "src": "/images/safaris/kenya/excursions/tsavo1.jpg",
+                  "caption": "Morning at Tsavo East"
+                },
+                {
+                  "src": "/images/safaris/kenya/excursions/tsavo2.jpg",
+                  "caption": "Evening at Tsavo East"
+                }
+              ],
+              "itinerary": {
+                "durationDays": 2,
+                "days": [
+                  {
+                    "dayNumber": 1,
+                    "title": "Arrival & First Game Drive",
+                    "description": "Morning drive to Bachuma Gate and enter Tsavo East Park, viewing game en route to Voi Safari Lodge / Sentrim / Ngulia / Aruba Ashnil for lunch.",
+                    "meals": ["Lunch", "Dinner"],
+                    "activities": ["Flight transfer", "Game drive"]
+                  },
+                  {
+                    "dayNumber": 2,
+                    "title": "Early Morning Game Drive",
+                    "description": "Early morning game drive. Relax and return to Mombasa after lunch.",
+                    "meals": ["Breakfast", "Lunch", "Dinner"],
+                    "activities": ["Morning game drive", "Afternoon game drive"]
+                  }
+                ]
+              },
               "categoryPath": ["Kenya Excursions", "Mombasa Excursions"],
               "prices": {
                 "lowSeason": { "1-2": 780, "3-4": 1240, "5-6": 1700, "7-8": 2160 },
