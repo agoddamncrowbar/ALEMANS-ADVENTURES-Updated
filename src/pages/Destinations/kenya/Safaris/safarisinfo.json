@@ -79,83 +79,7 @@
                 "minPax": 2,
                 "departures": "Daily"
               }
-            },
-            {
-              "id": "6-day-maasai-mara",
-              "slug": "6-days-mount-kenya-hiking-sirimon-out-chogoria-route",
-              "title": "MT. Kenya Hiking: SIRIMON OUT CHOGORIA ROUTE",
-              "destination": "Mount Kenya",
-              "description": "A 5-day hiking adventure on Mount Kenya via the Sirimon and Chogoria routes.",
-              "categoryPath": ["Kenya Popular Safaris", "Mount Kenya"],
-              "durationLabel": "6 Days",
-              "highlights": [
-                "Scenic hiking routes",
-                "Diverse flora and fauna",
-                "Stunning mountain views"
-              ],
-              "price": null,
-              "images": [
-                {
-                  "src": "/images/safaris/kenya/mtkenya/image3.jpg",
-                  "alt": "Mount Kenya hiking"
-                },
-                {
-                  "src": "/images/safaris/kenya/mtkenya/image2.jpg",
-                  "caption": "Hiking trail"
-                },
-                {
-                  "src": "/images/safaris/kenya/mtkenya/image1.jpg",
-                  "caption": "Scenic mountain view"
-                }
-              ],
-              "itinerary": {
-                "durationDays": 6,
-                "days": [
-                  {
-                    "dayNumber": 1,
-                    "title": "NAIROBI - NANYUKI",
-                    "description": "Meet and greet at the Airport and later depart and drive North to Naromoru town and transferred to Mountain rock Hotel or Equivalent for dinner and overnight.",
-                    "meals": ["Lunch", "Dinner"],
-                    "activities": ["Drive to Nanyuki"]
-                  },
-                  {
-                    "dayNumber": 2,
-                    "title": "NANYUKI - SIRIMON GATE - OLD MOSES",
-                    "description": "Depart Nairobi or your base hotel and drive to sirimon park gate 2600 m and after park formalities hike to Judmeirs camp 3300m 3-4 hrs.",
-                    "meals": ["Breakfast", "Lunch", "Dinner"],
-                    "activities": ["Hiking to Old Moses", "Scenic views"]
-                  },
-                  {
-                    "dayNumber": 3,
-                    "title": "OLD MOSES - SHIPTONS CAMP",
-                    "description": "After breakfast hike to shiptons camp 4200m, the day is a bit long so we need a slow pace. Lunch en route, dinner/overnight at camp. 6 -7hrs.",
-                    "meals": ["Breakfast", "Lunch", "Dinner"],
-                    "activities": ["Hiking to Shipton's Camp", "Wildlife spotting"]
-                  },
-                  {
-                    "dayNumber": 4,
-                    "title": "SHIPTONS CAMP",
-                    "description": "Stay at Shiptons Camp for another night to acclimatize and arrest day. This makes the summit day much more enjoyable. Dinner and overnight at Shiptons Camp.",
-                    "meals": ["Breakfast", "Lunch", "Dinner"],
-                    "activities": ["Acclimatization", "Nature walks"]
-                  },
-                  {
-                    "dayNumber": 5,
-                    "title": "SUMMIT DAY - MERU BANDAS",
-                    "description": "Attempt point Lenana 4985m then down to hallstarn ( mintos ) for b/fast and go down to Meru Bandas. Lunch en route  dinner and overnight at the lodge. 8-9  hrs",
-                    "meals": ["Breakfast", "Lunch", "Dinner"],
-                    "activities": ["Hiking to Chogoria Camp", "Scenic views"]
-                  },
-                  {
-                    "dayNumber": 6,
-                    "title": "MERU BANDAS - NAIROBI",
-                    "description": "After breakfast we hike down through dense bamboo and rain forest for 6 hrs to meet with our vehicle for transfer to chogoria town for lunch then proceed to Nairobi arriving in the evening. Later transferred to the Airport for your outbound flight.",
-                    "meals": ["Breakfast", "Lunch"],
-                    "activities": ["Descent to Chogoria", "Drive to Nairobi"]
-                  }
-                ]
-              }
-            },
+            },        
             {
               "id": "6-day-amboseli-lake-naivasha-maasai-mara",
               "slug": "6-day-amboseli-lake-naivasha-maasai-mara",
@@ -305,10 +229,237 @@
               ]
             },
             {
+              "id": "3-day-tsavo-east-and-west-amboseli-maasai-mara-safari",
+              "slug": "3-day-tsavo-east-and-west-amboseli-maasai-mara-safari",
+              "title": "Tsavo East & West - Amboseli National Park",
+              "destination": [ "Samburu", "Amboseli", "Maasai Mara"],
+              "description": "A 3-day safari covering Tsavo East & West and Amboseli National Parks.",
+              "categoryPath": ["Kenya Popular Safaris", "Amboseli", "Maasai Mara", "Tsavo East", "Tsavo West"],
+              "durationLabel": "3 Days",
+              "highlights": [
+                "Big Five game drives",
+                "Scenic landscapes",
+                "Diverse wildlife"
+              ],
+              "price": null,
+              "images": [
+                {
+                  "src": "/images/safaris/kenya/excursions/tsavo1.jpg",
+                  "alt": "Samburu National Reserve"
+                },
+                {
+                  "src": "/images/safaris/kenya/amboseli/image2.jpg",
+                  "caption": "Hiking trail"
+                },
+                {
+                  "src": "/images/safaris/kenya/maasai-mara/image1.jpg",
+                  "caption": "Scenic mountain view"
+                }
+              ],
+              "itinerary": {
+                "durationDays": 3,
+                "days": [
+                  {
+                    "dayNumber": 1,
+                    "title": "TSAVO EAST & WEST NATIONAL PARK",
+                    "description": "Drive 100 Kms east to Tsavo east/ West  Park, home to the Red Elephant. Viewing game enroute to Ngulia / Kilaguni/ Sentrim  for lunch, dinner and overnight. Afternoon game drive. ( 165 Kms )",
+                    "meals": ["Lunch", "Dinner"],
+                    "activities": ["Drive to Tsavo East", "Afternoon game drive"]
+                  },
+                  {
+                    "dayNumber": 2,
+                    "title": "AMBOSELI NATIONAL PARK",
+                    "description": "Proceed to Amboseli Park arriving in time for lunch at Kibo/ Sentrim/Serena. Afternoon game drives in this swampy park with Natural Springs which attract wildlife. We have chances to see the snow capped top of Mt Kilimanjaro and also the  Plains animals. Dinner and overnight at the Lodge, (240 Kms ).Accommodation at Kibo or sentrim Amboseli.",
+                    "meals": ["Breakfast", "Lunch", "Dinner"],
+                    "activities": ["Morning game drive", "Drive to Amboseli"]
+                  },
+                  {
+                    "dayNumber": 3,
+                    "title": "MOMBASA",
+                    "description": "Early morning game drives before Breakfast. After breakfast drive back to Mombasa.",
+                    "meals": ["Breakfast"],
+                    "activities": ["Morning game drive", "Drive to Mombasa"]
+                  }
+                ]
+              }
+            },
+            {
+              "id": "2-day-amboseli-national-park-safari",
+              "slug": "2-day-amboseli-national-park-safari",
+              "title": "AMBOSELI NATIONAL PARK SAFARI",
+              "destination": ["Amboseli"],
+              "description": "A 2-day safari to Amboseli National Park, known for its large elephant herds and stunning views of Mount Kilimanjaro.",
+              "categoryPath": ["Kenya Popular Safaris", "Amboseli"],
+              "durationLabel": "2 Days",
+              "highlights": [
+                "Elephant herds",
+                "Mount Kilimanjaro views",
+                "Game drives"
+              ],
+              "price": null,
+              "images": [
+                {
+                  "src": "/images/safaris/kenya/excursions/amboseli1.jpg",
+                  "alt": "Amboseli National Park"
+                },
+                {
+                  "src": "/images/safaris/kenya/excursions/amboseli.jpg",
+                  "caption": "Amboseli National Park"
+                }
+              ],
+              "itinerary": {
+                "durationDays": 2,
+                "days": [
+                  {
+                    "dayNumber": 1,
+                    "title": "Amboseli National Park",
+                    "description": "Drive south through open ranch country leading deep into Maasai land. Enter Amboseli Park and proceed to lodge for lunch, game drive and overnight [250 kms 4hrs]",
+                    "meals": ["Lunch", "Dinner"],
+                    "activities": ["Drive to Amboseli", "Afternoon game drive"]
+                  },
+                  {
+                    "dayNumber": 2,
+                    "title": "Nairobi",
+                    "description": "Take an early morning game drive before clouds could shroud the snow capped summit of Kilimanjaro providing a magnificent backdrop for the wildlife. After breakfast return to Nairobi.",
+                    "meals": ["Breakfast", "Lunch"],
+                    "activities": ["Morning game drive", "Drive to Nairobi"]
+                  }
+                ]
+              }
+            },
+            {
+              "id": "1-day-lake-nakuru-national-park-safari",
+              "slug": "1-day-lake-nakuru-national-park-safari",
+              "title": "Lake Nakuru National Park",
+              "destination": ["Lake Nakuru National Park"],
+              "description": "The great Rift Valley stretches from Ethiopia across Kenya to Tanzania. I chain of eight lakes, Lake Nakuru being one of the most famous The Lake is only a few kilometers away from Nakuru, Kenya's 3d largest town 160 km west of Nairobi. you will descend the escarpment into the dramatic landscape of the scenic Rift. You will be treated to an extensive tour of the park, with lunch being served in the park. The tour will focus on the bewildering spectacle of a million flamingos and the variety of wildlife with which the park abounds. Here, you will be treated o a melody of songs from a wide variety of birds. Drive back to Nairobi.",
+              "categoryPath": ["Kenya Popular Safaris", "Lake Nakuru National Park"],
+              "durationLabel": "1 Day",
+              "highlights": [
+                "Flamingo viewing",
+                "Diverse wildlife",
+                "Scenic landscapes"
+              ],
+              "price": null,
+              "images": [
+                {
+                  "src": "/images/safaris/kenya/excursions/lnakuru1.jpg",
+                  "alt": "Lake Nakuru National Park"
+                },
+                {
+                  "src": "/images/safaris/kenya/excursions/lnakuru.jpg",
+                  "caption": "Lake Nakuru National Park"
+                }
+              ]
+            },
+            {
+              "id": "1-day-lake-naivasha-and-crescent-island-safari",
+              "slug": "1-day-lake-naivasha-and-crescent-island-safari",
+              "title": "Lake Naivasha and Crescent Island",
+              "destination": ["Lake Naivasha", "Crescent Island"],
+              "description": "Your drive takes you down the escarpment and along the floor of the Rift Valley to the Lake Naivasha. Here successful vineyards produce much of Kenya’s wine, have been established. After a guided tour, a buffet lunch consisting of local produce and wine beside the lake, a two hour boat ride takes you to a nearby island where you walk amongst the plains game and enjoy the bird life. Return to Nairobi after tea arriving in the early evening.",
+              "categoryPath": ["Kenya Popular Safaris", "Amboseli"],
+              "durationLabel": "1 Day",
+              "highlights": [
+                "Elephant herds",
+                "Mount Kilimanjaro views",
+                "Game drives"
+              ],
+              "price": null,
+              "images": [
+                {
+                  "src": "/images/crescent/image.png",
+                  "alt": "Amboseli National Park"
+                }
+              ] 
+            }            
+          ]
+        },
+        {
+          "id": "adventure-activities",
+          "title": "Adventure Activities",
+          "safaris": [
+            {
+              "id": "6-day-maasai-mara",
+              "slug": "6-days-mount-kenya-hiking-sirimon-out-chogoria-route",
+              "title": "MT. Kenya Hiking: SIRIMON OUT CHOGORIA ROUTE",
+              "destination": "Mount Kenya",
+              "description": "A 5-day hiking adventure on Mount Kenya via the Sirimon and Chogoria routes.",
+              "categoryPath": ["Kenya Popular Safaris", "Mount Kenya"],
+              "durationLabel": "6 Days",
+              "highlights": [
+                "Scenic hiking routes",
+                "Diverse flora and fauna",
+                "Stunning mountain views"
+              ],
+              "price": null,
+              "images": [
+                {
+                  "src": "/images/safaris/kenya/mtkenya/image3.jpg",
+                  "alt": "Mount Kenya hiking"
+                },
+                {
+                  "src": "/images/safaris/kenya/mtkenya/image2.jpg",
+                  "caption": "Hiking trail"
+                },
+                {
+                  "src": "/images/safaris/kenya/mtkenya/image1.jpg",
+                  "caption": "Scenic mountain view"
+                }
+              ],
+              "itinerary": {
+                "durationDays": 6,
+                "days": [
+                  {
+                    "dayNumber": 1,
+                    "title": "NAIROBI - NANYUKI",
+                    "description": "Meet and greet at the Airport and later depart and drive North to Naromoru town and transferred to Mountain rock Hotel or Equivalent for dinner and overnight.",
+                    "meals": ["Lunch", "Dinner"],
+                    "activities": ["Drive to Nanyuki"]
+                  },
+                  {
+                    "dayNumber": 2,
+                    "title": "NANYUKI - SIRIMON GATE - OLD MOSES",
+                    "description": "Depart Nairobi or your base hotel and drive to sirimon park gate 2600 m and after park formalities hike to Judmeirs camp 3300m 3-4 hrs.",
+                    "meals": ["Breakfast", "Lunch", "Dinner"],
+                    "activities": ["Hiking to Old Moses", "Scenic views"]
+                  },
+                  {
+                    "dayNumber": 3,
+                    "title": "OLD MOSES - SHIPTONS CAMP",
+                    "description": "After breakfast hike to shiptons camp 4200m, the day is a bit long so we need a slow pace. Lunch en route, dinner/overnight at camp. 6 -7hrs.",
+                    "meals": ["Breakfast", "Lunch", "Dinner"],
+                    "activities": ["Hiking to Shipton's Camp", "Wildlife spotting"]
+                  },
+                  {
+                    "dayNumber": 4,
+                    "title": "SHIPTONS CAMP",
+                    "description": "Stay at Shiptons Camp for another night to acclimatize and arrest day. This makes the summit day much more enjoyable. Dinner and overnight at Shiptons Camp.",
+                    "meals": ["Breakfast", "Lunch", "Dinner"],
+                    "activities": ["Acclimatization", "Nature walks"]
+                  },
+                  {
+                    "dayNumber": 5,
+                    "title": "SUMMIT DAY - MERU BANDAS",
+                    "description": "Attempt point Lenana 4985m then down to hallstarn ( mintos ) for b/fast and go down to Meru Bandas. Lunch en route  dinner and overnight at the lodge. 8-9  hrs",
+                    "meals": ["Breakfast", "Lunch", "Dinner"],
+                    "activities": ["Hiking to Chogoria Camp", "Scenic views"]
+                  },
+                  {
+                    "dayNumber": 6,
+                    "title": "MERU BANDAS - NAIROBI",
+                    "description": "After breakfast we hike down through dense bamboo and rain forest for 6 hrs to meet with our vehicle for transfer to chogoria town for lunch then proceed to Nairobi arriving in the evening. Later transferred to the Airport for your outbound flight.",
+                    "meals": ["Breakfast", "Lunch"],
+                    "activities": ["Descent to Chogoria", "Drive to Nairobi"]
+                  }
+                ]
+              }
+            },
+            {
               "id": "4-day-mount-kenya-hiking-sirimon-route-safari",
               "slug": "4-day-mount-kenya-hiking-sirimon-route-safari",
               "title": "MOUNT KENYA HIKING: SIRIMON ROUTE",
-              "destination": [ "Mount Kenya", "Amboseli", "Maasai Mara"],
+              "destination": [ "Mount Kenya, ", "Amboseli, ", "Maasai Mara"],
               "description": "A 4-day hiking adventure on Mount Kenya via the Sirimon route.",
               "categoryPath": ["Kenya Popular Safaris", "Samburu", "Amboseli", "Maasai Mara"],
               "durationLabel": "4 Days",
@@ -367,31 +518,27 @@
               }
             },
             {
-              "id": "3-day-tsavo-east-and-west-amboseli-maasai-mara-safari",
-              "slug": "3-day-tsavo-east-and-west-amboseli-maasai-mara-safari",
-              "title": "Tsavo East & West - Amboseli National Park",
-              "destination": [ "Samburu", "Amboseli", "Maasai Mara"],
-              "description": "A 3-day safari covering Tsavo East & West and Amboseli National Parks.",
-              "categoryPath": ["Kenya Popular Safaris", "Amboseli", "Maasai Mara", "Tsavo East", "Tsavo West"],
+              "id": "3-day-white-water-rafting-and-kayaking",
+              "slug": "3-day-white-water-rafting-and-kayaking",
+              "title": "White water Rafting and Kayaking",
+              "destination": ["Sagana"],
+              "description": "A 3-day adventure combining white water rafting and kayaking on the Tana River.",
+              "categoryPath": ["Kenya Popular Safaris", "Adventure Activities", "White Water Rafting", "Kayaking"],
               "durationLabel": "3 Days",
               "highlights": [
-                "Big Five game drives",
-                "Scenic landscapes",
-                "Diverse wildlife"
+                "White water rafting",
+                "Kayaking",
+                "Scenic river views"
               ],
               "price": null,
               "images": [
                 {
-                  "src": "/images/safaris/kenya/excursions/tsavo1.jpg",
+                  "src": "/images/safaris/kenya/extreme/rafting2.jpg",
                   "alt": "Samburu National Reserve"
                 },
                 {
-                  "src": "/images/safaris/kenya/amboseli/image2.jpg",
+                  "src": "/images/safaris/kenya/extreme/rafting.jpg",
                   "caption": "Hiking trail"
-                },
-                {
-                  "src": "/images/safaris/kenya/maasai-mara/image1.jpg",
-                  "caption": "Scenic mountain view"
                 }
               ],
               "itinerary": {
@@ -399,27 +546,96 @@
                 "days": [
                   {
                     "dayNumber": 1,
-                    "title": "TSAVO EAST & WEST NATIONAL PARK",
-                    "description": "Drive 100 Kms east to Tsavo east/ West  Park, home to the Red Elephant. Viewing game enroute to Ngulia / Kilaguni/ Sentrim  for lunch, dinner and overnight. Afternoon game drive. ( 165 Kms )",
+                    "title": "Sagana",
+                    "description": "Depart Nairobi to central Kenya at the slopes of Mt Kenya to Sagana town, the headquarters of water rafting in Kenya at The Tana River. Arrive in time for lunch. Afternoon rafting this biggest river in Kenya. Dinner and overnight at Savage Camp.",
                     "meals": ["Lunch", "Dinner"],
-                    "activities": ["Drive to Tsavo East", "Afternoon game drive"]
+                    "activities": ["Drive to Sagana", "White water rafting"]
                   },
                   {
                     "dayNumber": 2,
-                    "title": "AMBOSELI NATIONAL PARK",
-                    "description": "Proceed to Amboseli Park arriving in time for lunch at Kibo/ Sentrim/Serena. Afternoon game drives in this swampy park with Natural Springs which attract wildlife. We have chances to see the snow capped top of Mt Kilimanjaro and also the  Plains animals. Dinner and overnight at the Lodge, (240 Kms ).Accommodation at Kibo or sentrim Amboseli.",
+                    "title": "Sagana",
+                    "description": "Depart Nairobi to central Kenya at the slopes of Mt Kenya to Sagana town, the headquarters of water rafting in Kenya at The Tana River. Arrive in time for lunch. Afternoon rafting this biggest river in Kenya. Dinner and overnight at Savage Camp.",
                     "meals": ["Breakfast", "Lunch", "Dinner"],
-                    "activities": ["Morning game drive", "Drive to Amboseli"]
+                    "activities": ["Drive to Sagana", "White water rafting"]
                   },
                   {
                     "dayNumber": 3,
-                    "title": "MOMBASA",
-                    "description": "Early morning game drives before Breakfast. After breakfast drive back to Mombasa.",
-                    "meals": ["Breakfast"],
-                    "activities": ["Morning game drive", "Drive to Mombasa"]
+                    "title": "Sagana",
+                    "description": "In the morning proceed for Mt Biking between 20 km – 40 kms. In the afternoon, engage in a stand-up paddle board for 2 hrs. Dinner and overnight at the camp.",
+                    "meals": ["Breakfast", "Lunch", "Dinner"],
+                    "activities": ["Mt Biking", "Paddle Boarding"]
                   }
                 ]
               }
+            }
+          ]
+        },
+        {
+          "id": "coastal-islands",
+          "title": "Coastal Islands & Marine Parks",
+          "safaris":[
+            {
+              "id": "1-day-samburu-national-reserve-safari",
+              "slug": "1-day-samburu-national-reserve-safari",
+              "title": "Shimoni, Kisite, Wasini and Chale Islands",
+              "destination": ["Shimoni", "Kisite Marine National Park", "Wasini Island", "Chale Island"],
+              "description": "These islands are tucked away off the tourist beat and offer secluded resorts. Shimoni is the famous haunt for Diving and deep sea big-game fishing. The Shimoni caves were an old slave town, the Kisite Marine National Park consists of 4 reef islets hosting colorful sea life, and Wasini Island is an old Arab village renowned for its historical monuments and tombs.",
+              "categoryPath": ["Kenya Popular Safaris", "Shimoni", "Kisite Marine National Park", "Wasini Island", "Chale Island"],
+              "durationLabel": "1 Day",
+              "highlights": [
+                "Marine life exploration",
+                "Diving and snorkeling",
+                "Historical sites"
+              ],
+              "price": null,
+              "images": [
+                {
+                  "src": "/images/safaris/kenya/kisite/image.png",
+                  "alt": "Samburu National Reserve"
+                }
+              ]
+            },
+            {
+              "id": "1-day-lamu-tour",
+              "slug": "1-day-lamu-tour",
+              "title": "Lamu",
+              "destination": ["Lamu"],
+              "description": {
+                "intro": "This is the oldest Kenyan city and one of the earliest Arab settlements along the coast, Lamu has preserved its architecture and a tempo reminiscent of the 18th century. The ambience is maintained by the absence of motor vehicles. Donkeys and dhows are still the common mode of transport. Skilled Lamu craftsmen create ornate doors and Arab chests which contribute to Lamu’s unique identity.",
+                "sections": [
+                  {
+                    "title": "Places of interest in Lamu",
+                    "items": [
+                      {
+                        "title": "Lamu Fort",
+                        "content": "Built between 1813 and 1821 in the southern corner of the old stone town. The fort is a massive multi-storey building with a central courtyard which has become an image of the Lamu community."
+                      },
+                      {
+                        "title": "Lamu Museum",
+                        "content": "Originally used by the British colonial government. It houses collections of ethnographic materials from the Swahili, Orma and Pokomo ethnic groups."
+                      },
+                      {
+                        "title": "Kiunga Marine Park",
+                        "content": "Also known as the ‘Enchanted underwater world’, comprising offshore islands and coral reefs along the Lamu Archipelago."
+                      }
+                    ]
+                  }
+                ]
+              },
+              "categoryPath": ["Kenya Popular Safaris", "Lamu"],
+              "durationLabel": "1 Day",
+              "highlights": [
+                "Historic architecture",
+                "Cultural experiences",
+                "Dhow sailing"
+              ],
+              "price": null,
+              "images": [
+                {
+                  "src": "/images/safaris/kenya/lamu/image.png",
+                  "alt": "Lamu Tour"
+                }
+              ]
             }
           ]
         }
@@ -1229,10 +1445,35 @@
             {
               "id": "kaa-30",
               "slug": "kaa-30-amboseli-2-days",
-              "title": "2 Days AMBOSELI NATIONAL PARK",
+              "title": "Amboseli National Park",
               "destination": "Amboseli National Park",
               "durationLabel": "2 Days",
-              "description": "Day 1 Amboseli: Drive south through open ranch country leading deep into Maasai land. Enter Amboseli Park and proceed to lodge for lunch, game drive and overnight [250 kms, 4 hrs]. Day 2 Nairobi: Take an early morning game drive before clouds could shroud the snow capped summit of Kilimanjaro providing a magnificent backdrop for the wildlife. After breakfast return to Nairobi. Full board accommodations at Sentrim, Kibo or Kilima Amboseli.",
+              "description": "A 2-day Amboseli safari featuring scenic drives through Maasai land, wildlife game drives with views of Mount Kilimanjaro, overnight stay in Amboseli, and return to Nairobi after an early morning game drive.",
+              "images":[
+                {
+                  "src":"/images/safaris/kenya/excursions/amboseli1.jpg",
+                  "alt":"Amboseli National Park"
+                }
+              ],
+              "itinerary": {
+                "durationDays": 2,
+                "days": [
+                  {
+                    "dayNumber": 1,
+                    "title": "Nairobi to Amboseli",
+                    "description": "Drive south through open ranch country leading deep into Maasai land. Enter Amboseli Park and proceed to lodge for lunch, game drive and overnight.",
+                    "meals": ["Lunch", "Dinner"],
+                    "activities": ["Game drive"]
+                  },
+                  {
+                    "dayNumber": 2,
+                    "title": "Amboseli to Nairobi",
+                    "description": "Take an early morning game drive before clouds could shroud the snow capped summit of Kilimanjaro providing a magnificent backdrop for the wildlife. After breakfast return to Nairobi.",
+                    "meals": ["Breakfast", "Lunch"],
+                    "activities": ["Morning game drive"]
+                  }
+                ]
+              },
               "categoryPath": ["Kenya Luxury Safaris", "Luxury Safari Destinations"],
               "prices": {
                 "lowSeason": { "1-2": 925, "3-4": 1375, "5-6": 1925, "7-8": 2375 },
@@ -1245,17 +1486,74 @@
               "title": "2 Days TREE HOTELS",
               "destination": "Aberdares",
               "durationLabel": "2 Days",
-              "description": "Day 1 Nairobi: Drive through Thika and pineapple plantations, cross Tana River and climb into Kikuyu farmlands. Arrive for lunch at Aberdare Country Club/Outspan. Afternoon game drive in Aberdares National Park visiting floodlit waterholes and saltlicks. Day 2 Tree Hotel - Nairobi: Morning descent to base hotel and return to Nairobi in time for lunch. Full board accommodations at the Treetops or the Ark.",
+              "description": "A 2-day Aberdares safari with a scenic drive through central Kenya, lunch at Aberdare Country Club or Outspan, afternoon game viewing in Aberdares National Park, overnight at a tree hotel, and return to Nairobi the following morning.",
+              "images":[
+                {
+                  "src":"/images/safaris/kenya/excursions/aberdares.jpg",
+                  "alt":"Aberdares"
+                }
+              ],
+              "itinerary": {
+                "durationDays": 2,
+                "days": [
+                  {
+                    "dayNumber": 1,
+                    "title": "Nairobi to Aberdares",
+                    "description": "Drive through Thika and pineapple plantations, cross Tana River and climb into Kikuyu farmlands. Arrive for lunch at Aberdare Country Club/Outspan. Afternoon game drive in Aberdares National Park visiting floodlit waterholes and saltlicks.",
+                    "meals": ["Lunch", "Dinner"],
+                    "activities": ["Game drive"]
+                  },
+                  {
+                    "dayNumber": 2,
+                    "title": "Aberdares to Nairobi",
+                    "description": "Morning descent to base hotel and return to Nairobi in time for lunch.",
+                    "meals": ["Breakfast", "Lunch"],
+                    "activities": ["Drive to Nairobi"]
+                  }
+                ]
+              },
               "categoryPath": ["Kenya Luxury Safaris", "Luxury Safari Destinations"],
               "prices": null
             },
             {
               "id": "kaa-32",
               "slug": "kaa-32-amboseli-tsavo-mombasa-3-days",
-              "title": "3 Days AMBOSELI - TSAVO – MOMBASA",
+              "title": "3 Days AMBOSELI - TSAVO - MOMBASA",
               "destination": "Amboseli, Tsavo, Mombasa",
               "durationLabel": "3 Days",
-              "description": "Day 1 Amboseli National Park: Explore Amboseli with an afternoon game drive at the foot of Kilimanjaro. Day 2 Tsavo West National Park: Game drive in Kenya's largest park, visit Mzima springs. Day 3 Mombasa: After breakfast, proceed to Mombasa where the tour ends by lunchtime. Full board accommodations at Kibo, Sentrim, or Kilima Amboseli and Kilaguni or Ngulia Lodges in Tsavo.",
+              "description": "A 3-day safari starting with game viewing in Amboseli beneath Mount Kilimanjaro, followed by exploration of Tsavo West including Mzima Springs, and ending with a scenic drive to Mombasa after breakfast.",
+              "images":[
+                {
+                  "src":"/images/safaris/kenya/excursions/tsavo1.jpg",
+                  "alt":"Tsavo National Park"
+                }
+              ],
+              "itinerary": {
+                "durationDays": 3,
+                "days": [
+                  {
+                    "dayNumber": 1,
+                    "title": "Nairobi to Amboseli",
+                    "description": "Drive south through open ranch country leading deep into Maasai land. Enter Amboseli Park and proceed to lodge for lunch, game drive and overnight.",
+                    "meals": ["Lunch", "Dinner"],
+                    "activities": ["Game drive"]
+                  },
+                  {
+                    "dayNumber": 2,
+                    "title": "Amboseli to Tsavo West",
+                    "description": "Cross Shetani Lava Flow to Tsavo West for game drive and overnight.",
+                    "meals": ["Breakfast", "Lunch", "Dinner"],
+                    "activities": ["Game drive"]
+                  },
+                  {
+                    "dayNumber": 3,
+                    "title": "Tsavo West to Mombasa",
+                    "description": "After breakfast, drive to Mombasa, arrive for lunch.",
+                    "meals": ["Breakfast", "Lunch"],
+                    "activities": ["Drive to Mombasa"]
+                  }
+                ]
+              },
               "categoryPath": ["Kenya Luxury Safaris", "Luxury Safari Destinations"],
               "prices": null
             },
@@ -1265,7 +1563,39 @@
               "title": "3 Days MASAI MARA",
               "destination": "Masai Mara",
               "durationLabel": "3 Days",
-              "description": "Day 1 Masai Mara: Drive to the escarpment, descend into the Great Rift Valley to Narok. Enter Masai Mara for lunch, afternoon game drive, and overnight. Day 2 Masai Mara: Full day on the undulating hills and grasslands viewing antelopes, gazelles, lions, and other predators. Day 3 Nairobi: Depart for Nairobi arriving before lunch. Full board accommodations at SENTRIM/ASHNIL/MARA MAISHA or Ol Moran or Mara Leisure.",
+              "description": "A 3-day Masai Mara safari with arrival and game drive on Day 1, a full day of wildlife viewing on the Mara plains on Day 2, and return to Nairobi by midday on Day 3.",
+              "images":[
+                {
+                  "src":"/images/safaris/kenya/excursions/maasai_mara.jpg",
+                  "alt":"Masai Mara"
+                }
+              ],
+              "itinerary": {
+                "durationDays": 3,
+                "days": [
+                  {
+                    "dayNumber": 1,
+                    "title": "Nairobi to Masai Mara",
+                    "description": "Drive to the escarpment, descend into the Great Rift Valley to Narok. Enter Masai Mara for lunch, afternoon game drive, and overnight.",
+                    "meals": ["Lunch", "Dinner"],
+                    "activities": ["Game drive"]
+                  },
+                  {
+                    "dayNumber": 2,
+                    "title": "Masai Mara",
+                    "description": "Full day on the undulating hills and grasslands viewing antelopes, gazelles, lions, and other predators.",
+                    "meals": ["Breakfast", "Lunch", "Dinner"],
+                    "activities": ["Full day game drive"]
+                  },
+                  {
+                    "dayNumber": 3,
+                    "title": "Masai Mara to Nairobi",
+                    "description": "Depart for Nairobi arriving before lunch.",
+                    "meals": ["Breakfast", "Lunch"],
+                    "activities": ["Drive to Nairobi"]
+                  }
+                ]
+              },
               "categoryPath": ["Kenya Luxury Safaris", "Luxury Safari Destinations"],
               "prices": null
             },
@@ -1357,186 +1687,6 @@
               "durationLabel": "8 Days",
               "description": "Day 1 Tree Hotel: Drive north to Kenya's Central Highlands arriving in time for lunch at Aberdare National Park. After lunch at the base hotel, proceed for game watching and overnight [160 kms 3hrs]. Day 2 Samburu: Drive across equator to Samburu, lunch at Shaba Lodge, drive along Uaso Nyiro river, overnight [207 kms, 3.5 hrs]. Day 3 Samburu: Full day game viewing in rugged terrain. Day 4 Mt Kenya: Drive south to Nanyuki, overnight at lodge [137 kms, 2.5 hrs]. Day 5 Nakuru: Drive west across Aberdares to Lake Nakuru, lunch and game drive, overnight [137 kms, 2.5 hrs]. Day 6 Maasai Mara: Travel across Rift Valley to Masai Mara, afternoon game drive, overnight [315 kms, 3.5 hrs]. Day 7 Maasai Mara: Full day of wildlife viewing. Day 8 Nairobi: Return to Nairobi after breakfast, arriving at lunch [280 kms, 4.5 hrs]. Full board accommodations at Aberdare Country Club, Sentrim/Sopa Samburu, Sentrim/Pelican Nakuru, Nanyuki lodge, Sentrim/Ol Moran or Mara Leisure in Mara.",
               "categoryPath": ["Kenya Luxury Safaris", "Luxury Safari Destinations"],
-              "prices": null
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "kenya-top-safari-requests",
-      "title": "Kenya Top Safari Requests",
-      "description": "Most requested safari programs and adventure activities",
-      "subcategories": [
-        {
-          "id": "top-safari-destinations",
-          "title": "Top Safari Destinations",
-          "safaris": [
-            {
-              "id": "kaa-43",
-              "slug": "kaa-43-lake-naivasha-crescent-island",
-              "title": "Lake Naivasha and Crescent Island",
-              "destination": "Lake Naivasha",
-              "durationLabel": "1 Day",
-              "description": "Your drive takes you down the escarpment and along the floor of the Rift Valley to the Lake Naivasha. Here successful vineyards produce much of Kenya's wine, have been established. After a guided tour, a buffet lunch consisting of local produce and wine beside the lake, a two hour boat ride takes you to a nearby island where you walk amongst the plains game and enjoy the bird life. Return to Nairobi after tea arriving in the early evening.",
-              "categoryPath": ["Kenya Top Safari Requests", "Top Safari Destinations"],
-              "prices": {
-                "lowSeason": {},
-                "peakSeason": {}
-              }
-            },
-            {
-              "id": "kaa-44",
-              "slug": "kaa-44-lake-nakuru-national-park",
-              "title": "Lake Nakuru National Park",
-              "destination": "Lake Nakuru",
-              "durationLabel": "1 Day",
-              "description": "The great Rift Valley stretches from Ethiopia across Kenya to Tanzania. A chain of eight lakes, Lake Nakuru being one of the most famous. The Lake is only a few kilometers away from Nakuru, Kenya's 3rd largest town 160 km west of Nairobi. You will descend the escarpment into the dramatic landscape of the scenic Rift. You will be treated to an extensive tour of the park, with lunch being served in the park. The tour will focus on the bewildering spectacle of a million flamingos and the variety of wildlife with which the park abounds. Here, you will be treated to a melody of songs from a wide variety of birds. Drive back to Nairobi.",
-              "categoryPath": ["Kenya Top Safari Requests", "Top Safari Destinations"],
-              "prices": {
-                "lowSeason": {},
-                "peakSeason": {}
-              }
-            },
-            {
-              "id": "kaa-46",
-              "slug": "kaa-46-amboseli-2-days",
-              "title": "2 Days AMBOSELI NATIONAL PARK",
-              "destination": "Amboseli",
-              "durationLabel": "2 Days",
-              "description": "Day 1 Amboseli: Drive south through open ranch country leading deep into Maasai land. Enter Amboseli Park and proceed to lodge for lunch, game drive and overnight [250 kms 4hrs]. Day 2 Nairobi: Take an early morning game drive before clouds could shroud the snow capped summit of Kilimanjaro providing a magnificent backdrop for the wildlife. After breakfast return to Nairobi. Full board accommodations at Sentrim or kibo or Kilima Amboseli.",
-              "categoryPath": ["Kenya Top Safari Requests", "Top Safari Destinations"],
-              "prices": {
-                "lowSeason": {},
-                "peakSeason": {}
-              }
-            },
-            {
-              "id": "kaa-47",
-              "slug": "kaa-47-masai-mara-3-days",
-              "title": "3 Days MASAI MARA",
-              "destination": "Masai Mara",
-              "durationLabel": "3 Days",
-              "description": "Day 1 Maasai Mara: Driving to the escarpment descend into the Great Rift Valley and proceed to Narok. Enter Masai Mara Park in time for lunch, afternoon game drive and overnight. Day 2 Maasai Mara: Spend the day on the undulating hills and grasslands viewing the spectacular array of wildlife including antelopes, gazelles, provides of lions and other predators. Day 3 Nairobi: After a hearty breakfast, leave for Nairobi arriving before lunch. Full board accommodations at SENTRIM/ASHNIL/MARA MAISHA or Ol Moran or Mara Leisure.",
-              "categoryPath": ["Kenya Top Safari Requests", "Top Safari Destinations"],
-              "prices": {
-                "lowSeason": {},
-                "peakSeason": {}
-              }
-            },
-            {
-              "id": "kaa-48",
-              "slug": "kaa-48-tsavo-amboseli-3-days",
-              "title": "3 Days Tsavo East & West - Amboseli National Park",
-              "destination": "Tsavo & Amboseli",
-              "durationLabel": "3 Days",
-              "description": "Day 1 Tsavo: Drive 100 Kms east to Tsavo east/West Park, home to the Red Elephant. Viewing game enroute to Ngulia/Kilaguni/Sentrim for lunch, dinner and overnight. Afternoon game drive. (165 Kms). Day 2 Amboseli: Proceed to Amboseli Park arriving in time for lunch at Kibo/Sentrim/Serena. Afternoon game drives in this swampy park with Natural Springs which attract wildlife. We have chances to see the snow capped top of Mt Kilimanjaro and also the Plains animals. Dinner and overnight at the Lodge, (240 Kms). Accommodation at Kibo or sentrim Amboseli. Day 3 Mombasa: Early morning game drives before Breakfast. After breakfast drive back to Mombasa. (135 Kms).",
-              "categoryPath": ["Kenya Top Safari Requests", "Top Safari Destinations"],
-              "prices": {
-                "lowSeason": {},
-                "peakSeason": {}
-              }
-            },
-            {
-              "id": "kaa-49",
-              "slug": "kaa-49-nakuru-naivasha-masai-mara-4-days",
-              "title": "4 Days LAKE NAKURU - LAKE NAIVASHA - MASAI MARA",
-              "destination": "Lake Nakuru, Lake Naivasha, Masai Mara",
-              "durationLabel": "4 Days",
-              "description": "Day 1 Nakuru: Drive through lush tea and coffee plantations near Limuru. Descend into the Great Rift Valley arriving at the famous bird sanctuary of Lake Nakuru Park. Afternoon game drive, before proceeding to your lodge for the night (160 kms, 3 hrs). Day 2 Maasai Mara: Early morning drive past the extinct volcano of Mt. Longonot. Arrive at the famous Maasai Mara for afternoon game drive and overnight (315 kms, 5 hrs). Day 3 Maasai Mara: Enjoy a day of uninterrupted game drive in this popular reserve renowned for its huge numbers of plains game such as wildebeest and zebra, and its majestic predators. Day 4 Nairobi: Bid farewell to the Mara as you return to Nairobi before lunch (280 kms, 4 1/2 hrs). Accommodations at Sentrim/Pelican Nakuru or Ol moran/Sentrim/Mara Leisure in Mara.",
-              "categoryPath": ["Kenya Top Safari Requests", "Top Safari Destinations"],
-              "prices": {
-                "lowSeason": {},
-                "peakSeason": {}
-              }
-            },
-            {
-              "id": "kaa-50",
-              "slug": "kaa-50-amboseli-naivasha-nakuru-masai-mara-6-days",
-              "title": "6 Days AMBOSELI - LAKE NAIVASHA - NAKURU - MAASAI MARA",
-              "destination": "Amboseli, Lake Naivasha, Nakuru, Masai Mara",
-              "durationLabel": "6 Days",
-              "description": "DAY 1 Amboseli: Drive south through Maasai country to Amboseli Game Reserve arriving at the lodge in the time for lunch. Afternoon game view beneath the snow capped peak of Mount Kilimanjaro. Dinner and overnight at a Safari lodge. DAY 2 Amboseli: Dawn drive, returning to the lodge for breakfast. Rest for the morning at the leisure or by the swimming pool. Lunch and a fine game viewing drive in the late afternoon. Dinner and overnight at a Safari Lodge. DAY 3 Lake Naivasha: Early breakfast and proceed to Lake Naivasha with lunch enroute. Afternoon at leisure or by the lake or free for optional excursions. Dinner and overnight at Lake Naivasha Hotel. DAY 4 Maasai Mara: Depart for Maasai Mara Game Reserve after an early breakfast. Lunch at the lodge an afternoon game viewing drive in the reserve the borders the Serengeti Park in Tanzania. Dinner and overnight at a lodge or tented camp. DAY 5 Maasai Mara: Morning and afternoon game viewing in the reserve, noted for it's black maned lion and leopard. Dinner and overnight at a lodge or tented camp. DAY 6 NAIROBI: Return to Nairobi after breakfast. Full board at Sentrim/Kibo/Kilima amboseli and Pelican/Sentrim Naivasha and Senrim/Ol Moran/Mara leisure in Mara.",
-              "categoryPath": ["Kenya Top Safari Requests", "Top Safari Destinations"],
-              "prices": {
-                "lowSeason": {},
-                "peakSeason": {}
-              }
-            }
-          ]
-        },
-        {
-          "id": "adventure-activities",
-          "title": "Adventure Activities",
-          "safaris": [
-            {
-              "id": "kaa-51",
-              "slug": "kaa-51-mt-kenya-sirimon-route-4-days",
-              "title": "4 Days MT. Kenya Hiking: SIRIMON OUT SIRIMON ROUTE",
-              "destination": "Mt. Kenya",
-              "durationLabel": "4 Days",
-              "description": "Day 1: NAIROBI – SIRIMON GATE – OLD MOSES: Depart Nairobi 7.00 am for Sirimon Park Gate. After park formalities trek for 9 KM (3-4) hours, 690 metres ascend to Moses Camp. Dinner and overnight at the camp. Day 2: OLD MOSES – SHIPTONS CAMP: Trek 14 KM about 6-7 hours 890 metres ascend to Shiptons Camp. Dinner and overnight at the camp. Day 3: SUMMIT DAY: Trek 3-5 hours 755 Metres ascend to Point Lenana arriving early in the morning to witness the sunrise. Trek back to Old Moses Camp. Dinner and overnight at the camp. Day 4: OLD MOSES - NAIROBI: After breakfast descend further down to Sirimon Park Gate where you are transferred to Nairobi arriving in the evening.",
-              "categoryPath": ["Kenya Top Safari Requests", "Adventure Activities"],
-              "prices": {
-                "lowSeason": {},
-                "peakSeason": {}
-              }
-            },
-            {
-              "id": "kaa-52",
-              "slug": "kaa-52-mt-kenya-sirimon-chogoria-6-days",
-              "title": "6 Days MT. Kenya Hiking: SIRIMON OUT CHOGORIA ROUTE",
-              "destination": "Mt. Kenya",
-              "durationLabel": "6 Days",
-              "description": "Day 1. NAIROBI - NANYUKI: Meet and greet at the Airport and later depart and drive North to Naromoru town and transferred to Mountain rock Hotel or Equivalent for dinner and overnight. Day 2. NANYUKI – SIRIMON GATE – OLD MOSES: Depart Nairobi or your base hotel and drive to sirimon park gate 2600 m and after park formalities hike to Judmeirs camp 3300m 3-4 hrs. Day 3. OLD MOSES – SHIPTONS CAMP: After b/fast hike to shiptons camp 4200m, the day is a bit long so we need a slow pace. Lunch en route, dinner/overnight at camp. 6-7hrs. Day 4. SHIPTONS CAMP: Stay at Shiptons Camp for another night to acclimatize and rest day. This makes the summit day much more enjoyable. Dinner and overnight at Shiptons Camp. Day 5. SUMMIT DAY – MERU BANDAS: Attempt point Lenana 4985m then down to hallstarn (mintos) for b/fast and go down to Meru Bandas. Lunch en route dinner and overnight at the lodge. 8-9 hrs. Day 6. MERU BANDAS - NAIROBI: After b/fast we hike down through dense bamboo and rain forest for 6 hrs to meet with our vehicle for transfer to chogoria town for lunch then proceed to Nairobi arriving in the evening. Later transferred to the Airport for your outbound flight.",
-              "categoryPath": ["Kenya Top Safari Requests", "Adventure Activities"],
-              "prices": {
-                "lowSeason": {},
-                "peakSeason": {}
-              }
-            },
-            {
-              "id": "kaa-53",
-              "slug": "kaa-53-white-water-rafting-kayaking-3-days",
-              "title": "3 Days White Water RAFTING AND KAYAKING",
-              "destination": "Sagana",
-              "durationLabel": "3 Days",
-              "description": "Day 1. Sagana: Depart Nairobi to central Kenya at the slopes of Mt Kenya to Sagana town, the headquarters of water rafting in Kenya at The Tana River. Arrive in time for lunch. Afternoon rafting this biggest river in Kenya. Dinner and overnight at Savage Camp. Day 2. Sagana: In the morning after breakfast, do Water sport Kayaking and in the afternoon do Rock climbing. Have a sundowner dinner on the banks of this mighty river. Dinner and overnight at the camp. Day 3. Sagana: In the morning proceed for Mt Biking between 20 km – 40 kms. In the afternoon, engage in a stand-up puddle board for 2 hrs. Dinner and overnight at the camp.",
-              "categoryPath": ["Kenya Top Safari Requests", "Adventure Activities"],
-              "prices": {
-                "lowSeason": {},
-                "peakSeason": {}
-              }
-            }
-          ]
-        },
-        {
-          "id": "coastal-islands",
-          "title": "Coastal Islands & Marine Parks",
-          "safaris": [
-            {
-              "id": "kaa-54",
-              "slug": "kaa-54-shimoni-kisite-wasini-chale",
-              "title": "SHIMONI, KISITE, WASINI AND CHALE ISLANDS",
-              "destination": "Shimoni, Kisite, Wasini, Chale",
-              "durationLabel": "Upon Request",
-              "description": "These islands are tucked away off the tourist beat and offer secluded resorts. Shimoni is the famous haunt for Diving and deep sea big-game fishing. The Shimoni caves were an old slave town, the Kisite Marine National Park consists of 4 reef islets hosting colorful sea life, and Wasini Island is an old Arab village renowned for its historical monuments and tombs.",
-              "categoryPath": ["Kenya Top Safari Requests", "Coastal Islands & Marine Parks"],
-              "prices": null
-            },
-            {
-              "id": "kaa-55",
-              "slug": "kaa-55-lamu",
-              "title": "LAMU",
-              "destination": "Lamu",
-              "durationLabel": "Upon Request",
-              "description": "This is the oldest Kenyan city and one of the earliest Arab settlements along the coast. Lamu has preserved its architecture and a tempo reminiscent of the 18th century. The ambience is maintained by the absence of motor vehicles. Donkeys and dhows are still the common mode of transport. Skilled Lamu craftsmen create ornate doors and Arab chests which contribute to Lamu's unique identity.",
-              "categoryPath": ["Kenya Top Safari Requests", "Coastal Islands & Marine Parks"],
-              "highlights": [
-                "Lamu Fort – Built between 1813 and 1821 in the southern corner of the old stone town. The fort is a massive multi-storey building with a central courtyard which has become an image of the Lamu community now being used for weddings, meetings and theatre.",
-                "Lamu Museum – The building was originally used by the British colonial government. It houses collections of ethnographic materials from the Swahili, Orma and Pokomo ethnic groups.",
-                "Kiunga Marine Park – Also known as 'Enchanted underwater world' the marine eco system incorporates a chain of about 50 calcareous offshore islands and coral reefs in the Lamu Archipelago, running parallel to the coastline for about 60 km and adjacent to Dodori and Boni forest Reserves on the mainland."
-              ],
               "prices": null
             }
           ]

@@ -1,4 +1,3 @@
-// src/pages/Safaris/Safaris.tsx
 import { useState } from "react";
 import safarisInfo from "./safarisinfo.json";
 import CategoryCard from "./components/CategoryCard";
