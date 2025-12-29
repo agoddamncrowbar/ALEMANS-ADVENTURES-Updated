@@ -47,7 +47,7 @@ export type Safari = {
   
   highlights?: string[];
   images: SafariImage[];
-  description?: string;
+  description?: string | SafariRichDescription;
   itinerary?: SafariItinerary;
   includes?: string[];
   excludes?: string[];
@@ -65,4 +65,25 @@ export type Category = {
   title: string;
   description?: string;
   subcategories: SubCategory[];
+  descriptor?: CategoryDescriptor;
+};
+
+export type CategoryDescriptor = {
+  type: string;   // e.g. "flyingSafariGuide"
+  source: string; // e.g. "flying-safaris"
+};
+
+export type SafariDescriptionSectionItem = {
+  title: string;
+  content: string;
+};
+
+export type SafariDescriptionSection = {
+  title: string;
+  items: SafariDescriptionSectionItem[];
+};
+
+export type SafariRichDescription = {
+  intro: string;
+  sections?: SafariDescriptionSection[];
 };

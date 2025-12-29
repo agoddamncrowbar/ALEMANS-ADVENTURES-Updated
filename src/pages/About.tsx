@@ -4,24 +4,24 @@ import Hero from "../components/about/Hero";
 export default function AboutPage() {
   const team = [
     {
-      name: "Sharon Maina",
-      role: "Sales & Marketing Manager",
-      image: "/images/team1.jpeg"
-    },
-    {
       name: "Jackson Miano",
       role: "Regional Director East Africa",
-      image: "/images/team2.jpeg"
+      image: "/images/team/team2.jpeg"
+    },
+    {
+      name: "Sharon Maina",
+      role: "Sales & Marketing Manager",
+      image: "/images/team/team1.jpeg"
     },
     {
       name: "Alex Murimi",
       role: "Operations Manager",
-      image: "/images/team3.jpeg"
+      image: "/images/team/team3.jpeg"
     },
     {
-      name: "Cris Maina",
+      name: "Chris Maina",
       role: "Travel Consultant",
-      image: "/images/team4.jpeg"
+      image: "/images/team/team4.jpeg"
     }
   ];
 
