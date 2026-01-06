@@ -233,73 +233,278 @@
                                     },
                                     {
                                         "dayNumber": 7,
-                                        "title": "Serengeti",
-                                        "description": "Morning game drive reveals the famous tree climbing lions. After lunch, proceed to Serengeti Park for the night.",
-                                        "meals": [
-                                            "Breakfast",
-                                            "Lunch",
-                                            "Dinner"
-                                        ],
-                                        "activities": [
-                                            "Game drive",
-                                            "Tree climbing lions"
-                                        ]
-                                    },
-                                    {
-                                        "dayNumber": 8,
-                                        "title": "Serengeti Game Viewing",
-                                        "description": "Experience an exciting spectacle of the astounding concentrations of game and extensive bird life at home on the Serengeti plains.",
-                                        "meals": [
-                                            "Breakfast",
-                                            "Lunch",
-                                            "Dinner"
-                                        ],
-                                        "activities": [
-                                            "Full day game drive"
-                                        ]
-                                    },
-                                    {
-                                        "dayNumber": 9,
-                                        "title": "Ngorongoro",
-                                        "description": "After a morning game drive in the Serengeti, continue to the 'cradle of Mankind' at Olduvai Gorge. Proceed to Ngorongoro for the night.",
-                                        "meals": [
-                                            "Breakfast",
-                                            "Lunch",
-                                            "Dinner"
-                                        ],
-                                        "activities": [
-                                            "Game drive",
-                                            "Olduvai Gorge visit"
-                                        ]
-                                    },
-                                    {
-                                        "dayNumber": 10,
-                                        "title": "Ngorongoro Crater",
-                                        "description": "During the day's game drives, discover this legendary crater containing the greatest permanent concentration of wildlife in Africa.",
-                                        "meals": [
-                                            "Breakfast",
-                                            "Lunch",
-                                            "Dinner"
-                                        ],
-                                        "activities": [
-                                            "Crater game drive"
-                                        ]
-                                    },
-                                    {
-                                        "dayNumber": 11,
-                                        "title": "Return to Nairobi",
-                                        "description": "Stopping at Arusha for Lunch, return to Nairobi via Namanga.",
+                                        "title": "Safari Walk - Return to Kampala",
+                                        "description": "Follow your ranger-guide on an early morning Safari Walk. A unique opportunity to see wildlife on foot. After breakfast, take an en-route game drive as you exit the park. Stop at Equator Point for photo opportunity and shopping. Drop-off at Entebbe for onward flight.",
                                         "meals": [
                                             "Breakfast",
                                             "Lunch"
                                         ],
                                         "activities": [
-                                            "Border crossing",
-                                            "Return transfer"
+                                            "Walking safari",
+                                            "Equator stop"
+                                        ],
+                                        "transferTime": "About 6hrs",
+                                        "includes": [
+                                            "Road Transport throughout the trip",
+                                            "A Chimpanzee tracking permit",
+                                            "A Gorilla tracking permit",
+                                            "Park entrance fees",
+                                            "Activities mentioned in itinerary",
+                                            "Meals per choice of lodging category",
+                                            "English-speaking driver/guide",
+                                            "A liter of bottled water per day",
+                                            "Accommodation as indicated"
+                                        ],
+                                        "excludes": [
+                                            "Visas/Entry Permit for Uganda if required",
+                                            "Pre & Post Tour Accommodation in Kampala or Entebbe",
+                                            "Personal Insurance Covers",
+                                            "Tips, Beverages and Souvenirs",
+                                            "All items of personal nature"
+                                        ],
+                                        "accommodation": {
+                                            "budget": [
+                                                "Isunga Lodge",
+                                                "Bush Lodge (Banda)",
+                                                "Buhoma Community Rest Camp",
+                                                "Eagles' Nest Mburo"
+                                            ]
+                                        }
+                                    }
+                                ]
+                            },
+                            "prices": null
+                        },
+                        {
+                            "id": "uaa-10",
+                            "slug": "uaa-10-gorilla-express-5-days",
+                            "title": "Gorilla Express Safari - 5 Days",
+                            "destination": "Bwindi",
+                            "durationLabel": "5 Days",
+                            "description": "A 5-day gorilla tracking safari with transfers from Entebbe, offering a more relaxed pace with pre and post-tour accommodation.",
+                            "categoryPath": [
+                                "Uganda Popular Safaris",
+                                "Gorilla & Chimpanzee Tracking"
+                            ],
+                            "images": [
+                                {
+                                    "src": "/images/safaris/uganda/bwindi/tracking.jpg",
+                                    "alt": "Gorilla Tracking"
+                                }
+                            ],
+                            "itinerary": {
+                                "durationDays": 5,
+                                "days": [
+                                    {
+                                        "dayNumber": 1,
+                                        "title": "Arrival - Kampala",
+                                        "description": "Meet and assist upon arrival at Entebbe International Airport and transfer to your lodging facility in Entebbe or Kampala. Check-in, relax and rest for the evening.",
+                                        "meals": [
+                                            "Bed Only"
+                                        ],
+                                        "activities": [
+                                            "Airport transfer"
+                                        ],
+                                        "transferTime": "About 10 Minutes"
+                                    },
+                                    {
+                                        "dayNumber": 2,
+                                        "title": "Kampala - Bwindi Forest",
+                                        "description": "At 0600hrs, meet and assist at your residence. Get on board and undergo safari briefing. Start journeying westwards. Stop at The Equator Point for photo-opportunity. Break for lunch in Mbarara Town. Follow snaking routes of Kigezi Highlands 'Switzerland of Africa'. Check-in at your reserved lodging facility.",
+                                        "meals": [
+                                            "Lunch",
+                                            "Dinner"
+                                        ],
+                                        "activities": [
+                                            "Equator stop",
+                                            "Scenic drive"
+                                        ],
+                                        "transferTime": "About 9hrs"
+                                    },
+                                    {
+                                        "dayNumber": 3,
+                                        "title": "Gorilla Tracking Day",
+                                        "description": "Wake-up early, have breakfast, pack lunch and attend briefing by head-ranger. Get your walking-stick and follow your ranger-guide to track mountain gorillas. Once you locate them, keep calm and watch them play, feed and swing. Maximum time: ONE Hour. Return to base, receive tracking certificate and return to lodge.",
+                                        "meals": [
+                                            "Breakfast",
+                                            "Lunch",
+                                            "Dinner"
+                                        ],
+                                        "activities": [
+                                            "Gorilla tracking"
+                                        ]
+                                    },
+                                    {
+                                        "dayNumber": 4,
+                                        "title": "Bwindi - Kampala/Entebbe",
+                                        "description": "Wake-up to watch sunrise. Exploit your last moments with mountain gorillas. After breakfast, join your driver on long-picturesque drive with lunch break en-route. Check-in at lodging facility for the evening.",
+                                        "meals": [
+                                            "Breakfast",
+                                            "Lunch"
+                                        ],
+                                        "activities": [
+                                            "Scenic drive"
+                                        ],
+                                        "transferTime": "About 9hrs"
+                                    },
+                                    {
+                                        "dayNumber": 5,
+                                        "title": "Entebbe - Flight Out",
+                                        "description": "Morning at Leisure in Entebbe Peninsula, breakfast, check-out and transfer to Entebbe Airport for your onward flight out.",
+                                        "meals": [
+                                            "Breakfast"
+                                        ],
+                                        "activities": [
+                                            "Airport transfer"
+                                        ],
+                                        "transferTime": "About 10 Minutes"
+                                    }
+                                ]
+                            },
+                            "includes": [
+                                "Road Transport throughout the trip",
+                                "A gorilla tracking permit",
+                                "Meals as indicated",
+                                "English-speaking driver/guide",
+                                "A liter of bottled water per day",
+                                "Accommodation in Bwindi for Two Nights",
+                                "Pre and Post Tour Accommodation"
+                            ],
+                            "excludes": [
+                                "Visas/Entry Permit for Uganda if required",
+                                "Personal Insurance Covers",
+                                "Tips, Beverages and Souvenirs",
+                                "All items of personal nature"
+                            ],
+                            "accommodation": {
+                                "budget": [
+                                    "Buhoma Community Camp",
+                                    "Humura Resort",
+                                    "Airport Guesthouse"
+                                ]
+                            },
+                            "prices": null
+                        },
+                        {
+                            "id": "uaa-11",
+                            "slug": "uaa-11-gorilla-thriller-7-days",
+                            "title": "Gorilla Thriller/Express - 7 Days",
+                            "destination": "Bwindi, Lake Bunyonyi",
+                            "durationLabel": "7 Days",
+                            "description": "A comprehensive 7-day gorilla safari from Nairobi, including two days of gorilla tracking and a visit to Lake Bunyonyi.",
+                            "categoryPath": [
+                                "Uganda Popular Safaris",
+                                "Gorilla & Chimpanzee Tracking"
+                            ],
+                            "images": [
+                                {
+                                    "src": "/images/safaris/uganda/bunyonyi/lake.jpg",
+                                    "alt": "Lake Bunyonyi"
+                                }
+                            ],
+                            "itinerary": {
+                                "durationDays": 7,
+                                "days": [
+                                    {
+                                        "dayNumber": 1,
+                                        "title": "Nairobi - Kampala",
+                                        "description": "Travel from Nairobi to Kampala. Overnight in a hotel in Kampala booked on bed and breakfast basis.",
+                                        "meals": [
+                                            "Bed and Breakfast"
+                                        ],
+                                        "activities": [
+                                            "Road transfer"
+                                        ]
+                                    },
+                                    {
+                                        "dayNumber": 2,
+                                        "title": "Kampala - Buhoma",
+                                        "description": "Early morning start from Kampala to southwest across the equator. Drive through savannah grasslands seeing banana plantations and Ankole cattle. Ascend into Kigezi highlands 'Switzerland of Africa' with terraced farming. Drive through to Buhoma. Overnight in tented camp.",
+                                        "meals": [
+                                            "Breakfast",
+                                            "Lunch",
+                                            "Dinner"
+                                        ],
+                                        "activities": [
+                                            "Scenic drive"
+                                        ]
+                                    },
+                                    {
+                                        "dayNumber": 3,
+                                        "title": "Buhoma - Gorilla Tracking",
+                                        "description": "Enter sanctuary at dawn and enjoy the beauty of the forest, home to mountain gorillas. After briefing, proceed through dense bush to trek for these endangered species. Other primates include black and white colobus, redtail monkey and chimpanzee. Return to tented camp.",
+                                        "meals": [
+                                            "Breakfast",
+                                            "Lunch",
+                                            "Dinner"
+                                        ],
+                                        "activities": [
+                                            "Gorilla tracking"
+                                        ]
+                                    },
+                                    {
+                                        "dayNumber": 4,
+                                        "title": "Buhoma - Second Gorilla Tracking",
+                                        "description": "Re-enter the forest for a second exciting day of tracking. Return to your tented camp for dinner and overnight.",
+                                        "meals": [
+                                            "Breakfast",
+                                            "Lunch",
+                                            "Dinner"
+                                        ],
+                                        "activities": [
+                                            "Gorilla tracking"
+                                        ]
+                                    },
+                                    {
+                                        "dayNumber": 5,
+                                        "title": "Buhoma - Lake Bunyonyi",
+                                        "description": "Depart the forest for Lake Bunyonyi, the lake of little birds, renowned for its variety and abundance of avians. Enjoy a canoe ride on this beautiful narrow lake surrounded by green hills. Dinner and overnight in a hotel.",
+                                        "meals": [
+                                            "Breakfast",
+                                            "Lunch",
+                                            "Dinner"
+                                        ],
+                                        "activities": [
+                                            "Canoe ride",
+                                            "Bird watching"
+                                        ]
+                                    },
+                                    {
+                                        "dayNumber": 6,
+                                        "title": "Lake Bunyonyi - Kampala",
+                                        "description": "Return to Kampala after breakfast. Overnight in a hotel in Kampala.",
+                                        "meals": [
+                                            "Breakfast",
+                                            "Dinner"
+                                        ],
+                                        "activities": [
+                                            "Scenic drive"
+                                        ]
+                                    },
+                                    {
+                                        "dayNumber": 7,
+                                        "title": "Kampala - Nairobi",
+                                        "description": "Early morning departure to Nairobi where you arrive in the late afternoon.",
+                                        "meals": [
+                                            "Breakfast"
+                                        ],
+                                        "activities": [
+                                            "Road transfer"
                                         ]
                                     }
                                 ]
                             },
+                            "notes": [
+                                "The above package can be reduced to five days by eliminating day 4 and 5.",
+                                "The return journey Nairobi-Kampala-Nairobi can be substituted with flights.",
+                                "Trekkers are advised to bring heavy leather gloves, stout hiking boots, long sleeve shirts, long pants, a light backpack and a water bottle."
+                            ],
+                            "healthRegulations": [
+                                "Yellow fever and Cholera vaccinations are required",
+                                "Anti Malaria tablets are recommended",
+                                "Tracking can be strenuous - one must be reasonably fit",
+                                "Good boots and clothing covering arms and legs required for heavy rains and dense forest"
+                            ],
                             "prices": null
                         }
                     ]
@@ -826,264 +1031,6 @@
                                 }
                             ],
                             "prices": null
-                        },
-                        {
-                            "title": "Safari Walk - Return to Kampala",
-                            "description": "Follow your ranger-guide on an early morning Safari Walk. A unique opportunity to see wildlife on foot. After breakfast, take an en-route game drive as you exit the park. Stop at Equator Point for photo opportunity and shopping. Drop-off at Entebbe for onward flight.",
-                            "meals": [ "Breakfast", "Lunch" ],
-                            "activities": [ "Walking safari", "Equator stop" ],
-                            "transferTime": "About 6hrs",
-                            "includes": [
-                                "Road Transport throughout the trip",
-                                "A Chimpanzee tracking permit",
-                                "A Gorilla tracking permit",
-                                "Park entrance fees",
-                                "Activities mentioned in itinerary",
-                                "Meals per choice of lodging category",
-                                "English-speaking driver/guide",
-                                "A liter of bottled water per day",
-                                "Accommodation as indicated"
-                            ],
-                            "excludes": [
-                                "Visas/Entry Permit for Uganda if required",
-                                "Pre & Post Tour Accommodation in Kampala or Entebbe",
-                                "Personal Insurance Covers",
-                                "Tips, Beverages and Souvenirs",
-                                "All items of personal nature"
-                            ],
-                            "accommodation": {
-                                "budget": [
-                                    "Isunga Lodge",
-                                    "Bush Lodge (Banda)",
-                                    "Buhoma Community Rest Camp",
-                                    "Eagles' Nest Mburo"
-                                ]
-                            },
-                            "prices": null
-                        },
-                        {
-                            "id": "uaa-10",
-                            "slug": "uaa-10-gorilla-express-5-days",
-                            "title": "Gorilla Express Safari - 5 Days",
-                            "destination": "Bwindi",
-                            "durationLabel": "5 Days",
-                            "description": "A 5-day gorilla tracking safari with transfers from Entebbe, offering a more relaxed pace with pre and post-tour accommodation.",
-                            "categoryPath": [
-                                "Uganda Popular Safaris",
-                                "Gorilla & Chimpanzee Tracking"
-                            ],
-                            "images": [
-                                {
-                                    "src": "/images/safaris/uganda/bwindi/tracking.jpg",
-                                    "alt": "Gorilla Tracking"
-                                }
-                            ],
-                            "itinerary": {
-                                "durationDays": 5,
-                                "days": [
-                                    {
-                                        "dayNumber": 1,
-                                        "title": "Arrival - Kampala",
-                                        "description": "Meet and assist upon arrival at Entebbe International Airport and transfer to your lodging facility in Entebbe or Kampala. Check-in, relax and rest for the evening.",
-                                        "meals": [
-                                            "Bed Only"
-                                        ],
-                                        "activities": [
-                                            "Airport transfer"
-                                        ],
-                                        "transferTime": "About 10 Minutes"
-                                    },
-                                    {
-                                        "dayNumber": 2,
-                                        "title": "Kampala - Bwindi Forest",
-                                        "description": "At 0600hrs, meet and assist at your residence. Get on board and undergo safari briefing. Start journeying westwards. Stop at The Equator Point for photo-opportunity. Break for lunch in Mbarara Town. Follow snaking routes of Kigezi Highlands 'Switzerland of Africa'. Check-in at your reserved lodging facility.",
-                                        "meals": [
-                                            "Lunch",
-                                            "Dinner"
-                                        ],
-                                        "activities": [
-                                            "Equator stop",
-                                            "Scenic drive"
-                                        ],
-                                        "transferTime": "About 9hrs"
-                                    },
-                                    {
-                                        "dayNumber": 3,
-                                        "title": "Gorilla Tracking Day",
-                                        "description": "Wake-up early, have breakfast, pack lunch and attend briefing by head-ranger. Get your walking-stick and follow your ranger-guide to track mountain gorillas. Once you locate them, keep calm and watch them play, feed and swing. Maximum time: ONE Hour. Return to base, receive tracking certificate and return to lodge.",
-                                        "meals": [
-                                            "Breakfast",
-                                            "Lunch",
-                                            "Dinner"
-                                        ],
-                                        "activities": [
-                                            "Gorilla tracking"
-                                        ]
-                                    },
-                                    {
-                                        "dayNumber": 4,
-                                        "title": "Bwindi - Kampala/Entebbe",
-                                        "description": "Wake-up to watch sunrise. Exploit your last moments with mountain gorillas. After breakfast, join your driver on long-picturesque drive with lunch break en-route. Check-in at lodging facility for the evening.",
-                                        "meals": [
-                                            "Breakfast",
-                                            "Lunch"
-                                        ],
-                                        "activities": [
-                                            "Scenic drive"
-                                        ],
-                                        "transferTime": "About 9hrs"
-                                    },
-                                    {
-                                        "dayNumber": 5,
-                                        "title": "Entebbe - Flight Out",
-                                        "description": "Morning at Leisure in Entebbe Peninsula, breakfast, check-out and transfer to Entebbe Airport for your onward flight out.",
-                                        "meals": [  "Breakfast" ],
-                                        "activities": [ "Airport transfer" ],
-                                        "transferTime": "About 10 Minutes"
-                                    }
-                                ]
-                            },
-                            "includes": [
-                                "Road Transport throughout the trip",
-                                "A gorilla tracking permit",
-                                "Meals as indicated",
-                                "English-speaking driver/guide",
-                                "A liter of bottled water per day",
-                                "Accommodation in Bwindi for Two Nights",
-                                "Pre and Post Tour Accommodation"
-                            ],
-                            "excludes": [
-                                "Visas/Entry Permit for Uganda if required",
-                                "Personal Insurance Covers",
-                                "Tips, Beverages and Souvenirs",
-                                "All items of personal nature"
-                            ],
-                            "accommodation": {
-                                "budget": [ "Buhoma Community Camp", "Humura Resort", "Airport Guesthouse" ]
-                            },
-                            "prices": null
-                        },
-                        {
-                            "id": "uaa-11",
-                            "slug": "uaa-11-gorilla-thriller-7-days",
-                            "title": "Gorilla Thriller/Express - 7 Days",
-                            "destination": "Bwindi, Lake Bunyonyi",
-                            "durationLabel": "7 Days",
-                            "description": "A comprehensive 7-day gorilla safari from Nairobi, including two days of gorilla tracking and a visit to Lake Bunyonyi.",
-                            "categoryPath": [
-                                "Uganda Popular Safaris",
-                                "Gorilla & Chimpanzee Tracking"
-                            ],
-                            "images": [
-                                {
-                                    "src": "/images/safaris/uganda/bunyonyi/lake.jpg",
-                                    "alt": "Lake Bunyonyi"
-                                }
-                            ],
-                            "itinerary": {
-                                "durationDays": 7,
-                                "days": [
-                                    {
-                                        "dayNumber": 1,
-                                        "title": "Nairobi - Kampala",
-                                        "description": "Travel from Nairobi to Kampala. Overnight in a hotel in Kampala booked on bed and breakfast basis.",
-                                        "meals": [
-                                            "Bed and Breakfast"
-                                        ],
-                                        "activities": [
-                                            "Road transfer"
-                                        ]
-                                    },
-                                    {
-                                        "dayNumber": 2,
-                                        "title": "Kampala - Buhoma",
-                                        "description": "Early morning start from Kampala to southwest across the equator. Drive through savannah grasslands seeing banana plantations and Ankole cattle. Ascend into Kigezi highlands 'Switzerland of Africa' with terraced farming. Drive through to Buhoma. Overnight in tented camp.",
-                                        "meals": [
-                                            "Breakfast",
-                                            "Lunch",
-                                            "Dinner"
-                                        ],
-                                        "activities": [
-                                            "Scenic drive"
-                                        ]
-                                    },
-                                    {
-                                        "dayNumber": 3,
-                                        "title": "Buhoma - Gorilla Tracking",
-                                        "description": "Enter sanctuary at dawn and enjoy the beauty of the forest, home to mountain gorillas. After briefing, proceed through dense bush to trek for these endangered species. Other primates include black and white colobus, redtail monkey and chimpanzee. Return to tented camp.",
-                                        "meals": [
-                                            "Breakfast",
-                                            "Lunch",
-                                            "Dinner"
-                                        ],
-                                        "activities": [
-                                            "Gorilla tracking"
-                                        ]
-                                    },
-                                    {
-                                        "dayNumber": 4,
-                                        "title": "Buhoma - Second Gorilla Tracking",
-                                        "description": "Re-enter the forest for a second exciting day of tracking. Return to your tented camp for dinner and overnight.",
-                                        "meals": [
-                                            "Breakfast",
-                                            "Lunch",
-                                            "Dinner"
-                                        ],
-                                        "activities": [
-                                            "Gorilla tracking"
-                                        ]
-                                    },
-                                    {
-                                        "dayNumber": 5,
-                                        "title": "Buhoma - Lake Bunyonyi",
-                                        "description": "Depart the forest for Lake Bunyonyi, the lake of little birds, renowned for its variety and abundance of avians. Enjoy a canoe ride on this beautiful narrow lake surrounded by green hills. Dinner and overnight in a hotel.",
-                                        "meals": [
-                                            "Breakfast",
-                                            "Lunch",
-                                            "Dinner"
-                                        ],
-                                        "activities": [
-                                            "Canoe ride",
-                                            "Bird watching"
-                                        ]
-                                    },
-                                    {
-                                        "dayNumber": 6,
-                                        "title": "Lake Bunyonyi - Kampala",
-                                        "description": "Return to Kampala after breakfast. Overnight in a hotel in Kampala.",
-                                        "meals": [
-                                            "Breakfast",
-                                            "Dinner"
-                                        ],
-                                        "activities": [
-                                            "Scenic drive"
-                                        ]
-                                    },
-                                    {
-                                        "dayNumber": 7,
-                                        "title": "Kampala - Nairobi",
-                                        "description": "Early morning departure to Nairobi where you arrive in the late afternoon.",
-                                        "meals": [
-                                            "Breakfast"
-                                        ],
-                                        "activities": [
-                                            "Road transfer"
-                                        ]
-                                    }
-                                    ]
-                                },
-                                "notes": [
-                                    "The above package can be reduced to five days by eliminating day 4 and 5.",
-                                    "The return journey Nairobi-Kampala-Nairobi can be substituted with flights.",
-                                    "Trekkers are advised to bring heavy leather gloves, stout hiking boots, long sleeve shirts, long pants, a light backpack and a water bottle."
-                                ],
-                                "healthRegulations": [
-                                    "Yellow fever and Cholera vaccinations are required",
-                                    "Anti Malaria tablets are recommended",
-                                    "Tracking can be strenuous - one must be reasonably fit",
-                                    "Good boots and clothing covering arms and legs required for heavy rains and dense forest"
-                                ],
-                                "prices": null
                         }
                     ]
                 }
@@ -1094,37 +1041,37 @@
             "title": "Uganda Excursions",
             "description": "Day trips and short excursions in Uganda",
             "subcategories": [
-            {
-                "id": "uganda-day-trips",
-                "title": "Uganda Day Trips",
-                "safaris": [
-                    {
-                        "id": "uaa-01",
-                        "slug": "uaa-01-uganda-excursion",
-                        "title": "Uganda Excursions",
-                        "destination": "Various",
-                        "durationLabel": "1 Day",
-                        "description": "Various day excursions available throughout Uganda. Content to be provided.",
-                        "categoryPath": [
-                            "Uganda Excursions",
-                            "Uganda Day Trips"
-                        ],
-                        "prices": null
-                    },
-                    {
-                        "id": "uaa-02",
-                        "slug": "uaa-02-uganda-day-trip",
-                        "title": "Uganda Day Trip",
-                        "destination": "Various",
-                        "durationLabel": "1 Day",
-                        "description": "Day trip options in Uganda. Content to be provided.",
-                        "categoryPath": [
-                            "Uganda Excursions",
-                            "Uganda Day Trips"
-                        ],
-                        "prices": null
-                    }
-                ]
+                {
+                    "id": "uganda-day-trips",
+                    "title": "Uganda Day Trips",
+                    "safaris": [
+                        {
+                            "id": "uaa-01",
+                            "slug": "uaa-01-uganda-excursion",
+                            "title": "Uganda Excursions",
+                            "destination": "Various",
+                            "durationLabel": "1 Day",
+                            "description": "Various day excursions available throughout Uganda. Content to be provided.",
+                            "categoryPath": [
+                                "Uganda Excursions",
+                                "Uganda Day Trips"
+                            ],
+                            "prices": null
+                        },
+                        {
+                            "id": "uaa-02",
+                            "slug": "uaa-02-uganda-day-trip",
+                            "title": "Uganda Day Trip",
+                            "destination": "Various",
+                            "durationLabel": "1 Day",
+                            "description": "Day trip options in Uganda. Content to be provided.",
+                            "categoryPath": [
+                                "Uganda Excursions",
+                                "Uganda Day Trips"
+                            ],
+                            "prices": null
+                        }
+                    ]
                 }
             ]
         },
@@ -1133,36 +1080,36 @@
             "title": "Uganda Top Requested Safaris",
             "description": "Most popular safari programs in Uganda",
             "subcategories": [
-            {
-            "id": "top-requested-programs",
-            "title": "Top Requested Programs",
-            "safaris": [
                 {
-                    "id": "uaa-03",
-                    "slug": "uaa-03-top-requested-safari",
-                    "title": "Uganda Top Safari",
-                    "destination": "Various",
-                    "durationLabel": "Various",
-                    "description": "Content to be provided.",
-                    "categoryPath": [
-                        "Uganda Top Requested Safaris"
-                    ],
-                    "prices": null
-                },
-                {
-                    "id": "uaa-04",
-                    "slug": "uaa-04-popular-safari",
-                    "title": "Popular Uganda Safari",
-                    "destination": "Various",
-                    "durationLabel": "Various",
-                    "description": "Content to be provided.",
-                    "categoryPath": [
-                        "Uganda Top Requested Safaris"
-                    ],
-                    "prices": null
+                    "id": "top-requested-programs",
+                    "title": "Top Requested Programs",
+                    "safaris": [
+                        {
+                            "id": "uaa-03",
+                            "slug": "uaa-03-top-requested-safari",
+                            "title": "Uganda Top Safari",
+                            "destination": "Various",
+                            "durationLabel": "Various",
+                            "description": "Content to be provided.",
+                            "categoryPath": [
+                                "Uganda Top Requested Safaris"
+                            ],
+                            "prices": null
+                        },
+                        {
+                            "id": "uaa-04",
+                            "slug": "uaa-04-popular-safari",
+                            "title": "Popular Uganda Safari",
+                            "destination": "Various",
+                            "durationLabel": "Various",
+                            "description": "Content to be provided.",
+                            "categoryPath": [
+                                "Uganda Top Requested Safaris"
+                            ],
+                            "prices": null
+                        }
+                    ]
                 }
-            ]
-        }
             ]
         },
         {
@@ -1170,353 +1117,356 @@
             "title": "Uganda Budget Safaris",
             "description": "Affordable safari options in Uganda",
             "subcategories": [
-        {
-            "id": "budget-safari-destinations",
-            "title": "Budget Safari Destinations",
-            "safaris": [
-            {
-                "id": "uaa-05",
-                "slug": "uaa-05-murchison-falls-3-days",
-                "title": "Murchison Falls",
-                "destination": "Murchison Falls",
-                "durationLabel": "3 Days",
-                "description": "A 3-day budget safari to Murchison Falls National Park, featuring game drives and a boat cruise to the breathtaking falls.",
-                "categoryPath": [
-                    "Uganda Budget Safaris",
-                    "Budget Safari Destinations"
-                ],
-                "images": [
-                    {
-                        "src": "/images/safaris/uganda/murchison/falls.jpg",
-                        "alt": "Murchison Falls"
-                    }
-                ],
-                "itinerary": {
-                    "durationDays": 3,
-                    "days": [
+                {
+                    "id": "budget-safari-destinations",
+                    "title": "Budget Safari Destinations",
+                    "safaris": [
                         {
-                            "dayNumber": 1,
-                            "title": "Kampala to Paraa",
-                            "description": "Drive through Luwero triangle, arriving at Masindi for Lunch. Proceed to the park for game drive with overnight at paraa.",
-                            "meals": [
-                                "Lunch",
-                                "Dinner"
+                            "id": "uaa-05",
+                            "slug": "uaa-05-murchison-falls-3-days",
+                            "title": "Murchison Falls",
+                            "destination": "Murchison Falls",
+                            "durationLabel": "3 Days",
+                            "description": "A 3-day budget safari to Murchison Falls National Park, featuring game drives and a boat cruise to the breathtaking falls.",
+                            "categoryPath": [
+                                "Uganda Budget Safaris",
+                                "Budget Safari Destinations"
                             ],
-                            "activities": [
-                                "Game drive"
-                            ]
+                            "images": [
+                                {
+                                    "src": "/images/safaris/uganda/murchison/falls.jpg",
+                                    "alt": "Murchison Falls"
+                                }
+                            ],
+                            "itinerary": {
+                                "durationDays": 3,
+                                "days": [
+                                    {
+                                        "dayNumber": 1,
+                                        "title": "Kampala to Paraa",
+                                        "description": "Drive through Luwero triangle, arriving at Masindi for Lunch. Proceed to the park for game drive with overnight at paraa.",
+                                        "meals": [
+                                            "Lunch",
+                                            "Dinner"
+                                        ],
+                                        "activities": [
+                                            "Game drive"
+                                        ]
+                                    },
+                                    {
+                                        "dayNumber": 2,
+                                        "title": "Murchison Falls Exploration",
+                                        "description": "After an early morning game drive, take a boat cruise along the Nile to the bottom of the breath taking falls. After lunch, drive to the top of the falls. Overnight at Paraa.",
+                                        "meals": [
+                                            "Breakfast",
+                                            "Lunch",
+                                            "Dinner"
+                                        ],
+                                        "activities": [
+                                            "Morning game drive",
+                                            "Boat cruise",
+                                            "Falls viewing"
+                                        ]
+                                    },
+                                    {
+                                        "dayNumber": 3,
+                                        "title": "Return to Kampala",
+                                        "description": "After breakfast, return to Kampala via Masindi for lunch.",
+                                        "meals": [
+                                            "Breakfast",
+                                            "Lunch"
+                                        ],
+                                        "activities": [
+                                            "Scenic drive"
+                                        ]
+                                    }
+                                ]
+                            },
+                            "prices": null
                         },
                         {
-                            "dayNumber": 2,
-                            "title": "Murchison Falls Exploration",
-                            "description": "After an early morning game drive, take a boat cruise along the Nile to the bottom of the breath taking falls. After lunch, drive to the top of the falls. Overnight at Paraa.",
-                            "meals": [
-                                "Breakfast",
-                                "Lunch",
-                                "Dinner"
+                            "id": "uaa-06",
+                            "slug": "uaa-06-queen-elizabeth-kibale-4-days",
+                            "title": "Queen Elizabeth - Kibale Forest",
+                            "destination": "Queen Elizabeth, Kibale Forest",
+                            "durationLabel": "4 Days",
+                            "description": "A 4-day budget safari combining Queen Elizabeth National Park and Kibale Forest for primate tracking.",
+                            "categoryPath": [
+                                "Uganda Budget Safaris",
+                                "Budget Safari Destinations"
                             ],
-                            "activities": [
-                                "Morning game drive",
-                                "Boat cruise",
-                                "Falls viewing"
-                            ]
-                        },
-                        {
-                            "dayNumber": 3,
-                            "title": "Return to Kampala",
-                            "description": "After breakfast, return to Kampala via Masindi for lunch.",
-                            "meals": [
-                                "Breakfast",
-                                "Lunch"
+                            "images": [
+                                {
+                                    "src": "/images/safaris/uganda/queen/mweya.jpg",
+                                    "alt": "Queen Elizabeth National Park"
+                                }
                             ],
-                            "activities": [
-                                "Scenic drive"
-                            ]
+                            "itinerary": {
+                                "durationDays": 4,
+                                "days": [
+                                    {
+                                        "dayNumber": 1,
+                                        "title": "Kampala to Mweya",
+                                        "description": "Head towards western Uganda. Stop over at the local drum industry, the equator, Masaka, and Mbarara for lunch. Evening game drive proceeding to Mweya for the night.",
+                                        "meals": [
+                                            "Lunch",
+                                            "Dinner"
+                                        ],
+                                        "activities": [
+                                            "Equator stop",
+                                            "Evening game drive"
+                                        ]
+                                    },
+                                    {
+                                        "dayNumber": 2,
+                                        "title": "Queen Elizabeth Park",
+                                        "description": "Drive through volcanic formations of the western Rift Valley. The descent reveals stunning panorama of Lakes George and Edward. After game drives and lunch, take a boat trip on the Kazinga channel. Resume game viewing before returning to lodge.",
+                                        "meals": [
+                                            "Breakfast",
+                                            "Lunch",
+                                            "Dinner"
+                                        ],
+                                        "activities": [
+                                            "Game drive",
+                                            "Boat cruise on Kazinga Channel"
+                                        ]
+                                    },
+                                    {
+                                        "dayNumber": 3,
+                                        "title": "Kibale Forest - Fort Portal",
+                                        "description": "After breakfast, depart for Kibale forest to track a variety of primate species. Overnight at the hotel.",
+                                        "meals": [
+                                            "Breakfast",
+                                            "Lunch",
+                                            "Dinner"
+                                        ],
+                                        "activities": [
+                                            "Primate tracking"
+                                        ]
+                                    },
+                                    {
+                                        "dayNumber": 4,
+                                        "title": "Return to Kampala",
+                                        "description": "After breakfast, return to Kampala via Mubende.",
+                                        "meals": [
+                                            "Breakfast",
+                                            "Lunch"
+                                        ],
+                                        "activities": [
+                                            "Scenic drive"
+                                        ]
+                                    }
+                                ]
+                            },
+                            "prices": null
                         }
                     ]
-                },
-                "prices": null
-            },
-            {
-                "id": "uaa-06",
-                "slug": "uaa-06-queen-elizabeth-kibale-4-days",
-                "title": "Queen Elizabeth - Kibale Forest",
-                "destination": "Queen Elizabeth, Kibale Forest",
-                "durationLabel": "4 Days",
-                "description": "A 4-day budget safari combining Queen Elizabeth National Park and Kibale Forest for primate tracking.",
-                "categoryPath": [
-                    "Uganda Budget Safaris",
-                    "Budget Safari Destinations"
-                ],
-                "images": [
-                    {
-                        "src": "/images/safaris/uganda/queen/mweya.jpg",
-                        "alt": "Queen Elizabeth National Park"
-                    }
-                ],
-                "itinerary": {
-                    "durationDays": 4,
-                    "days": [
-                        {
-                            "dayNumber": 1,
-                            "title": "Kampala to Mweya",
-                            "description": "Head towards western Uganda. Stop over at the local drum industry, the equator, Masaka, and Mbarara for lunch. Evening game drive proceeding to Mweya for the night.",
-                            "meals": [
-                                "Lunch",
-                                "Dinner"
-                            ],
-                            "activities": [
-                                "Equator stop",
-                                "Evening game drive"
-                            ]
-                        },
-                        {
-                            "dayNumber": 2,
-                            "title": "Queen Elizabeth Park",
-                            "description": "Drive through volcanic formations of the western Rift Valley. The descent reveals stunning panorama of Lakes George and Edward. After game drives and lunch, take a boat trip on the Kazinga channel. Resume game viewing before returning to lodge.",
-                            "meals": [
-                                "Breakfast",
-                                "Lunch",
-                                "Dinner"
-                            ],
-                            "activities": [
-                                "Game drive",
-                                "Boat cruise on Kazinga Channel"
-                            ]
-                        },
-                        {
-                            "dayNumber": 3,
-                            "title": "Kibale Forest - Fort Portal",
-                            "description": "After breakfast, depart for Kibale forest to track a variety of primate species. Overnight at the hotel.",
-                            "meals": [
-                                "Breakfast",
-                                "Lunch",
-                                "Dinner"
-                            ],
-                            "activities": [
-                                "Primate tracking"
-                            ]
-                        },
-                        {
-                            "dayNumber": 4,
-                            "title": "Return to Kampala",
-                            "description": "After breakfast, return to Kampala via Mubende.",
-                            "meals": [
-                                "Breakfast",
-                                "Lunch"
-                            ],
-                            "activities": [
-                                "Scenic drive"
-                            ]
-                        }
-                    ]
-                },
-                "prices": null
-            }
-        ]
-        }
-        ]
-    },
-    {
-    "id": "uganda-luxury-safaris",
-    "title": "Uganda Luxury Safaris",
-    "description": "Premium safari experiences in Uganda",
-    "subcategories": [
-    {
-    "id": "luxury-safari-destinations",
-    "title": "Luxury Safari Destinations",
-    "safaris": [
-    {
-    "id": "uaa-07",
-    "slug": "uaa-07-luxury-safari",
-    "title": "Uganda Luxury Safari",
-    "destination": "Various",
-    "durationLabel": "Various",
-    "description": "Content to be provided.",
-    "categoryPath": [
-        "Uganda Luxury Safaris",
-        "Luxury Safari Destinations"
-    ],
-    "prices": null
-    }
-    ]
-    }
-    ]
-    },
-    {
-        "id": "uganda-safaris-across-east-africa",
-        "title": "Safaris Across East Africa",
-        "description": "Multi-country safari experiences",
-        "subcategories": [
-        {
-            "id": "east-africa-combinations",
-            "title": "East Africa Safari Combinations",
-            "safaris": [
-            {
-                "id": "uaa-12",
-                "slug": "uaa-12-kenya-tanzania-11-days",
-                "title": "Kenya / Tanzania Safari",
-                "destination": "Kenya, Tanzania, Uganda",
-                "durationLabel": "11 Days",
-                "description": "An 11-day safari covering the best of Kenya and Tanzania, including tree hotels, Samburu, Lake Nakuru, Lake Manyara, Serengeti and Ngorongoro Crater.",
-                "categoryPath": [ "Safaris Across East Africa", "East Africa Safari Combinations" ],
-                "images": [
-                    {
-                        "src": "/images/safaris/uganda/eastafrica/combo.jpg",
-                        "alt": "East Africa Safari"
-                    }
-                ],
-                "itinerary": {
-                    "durationDays": 11,
-                    "days": [
-                        {
-                            "dayNumber": 1,
-                            "title": "Tree Hotel",
-                            "description": "Morning drive to the forested highlands of the Aberdares. After lunch at the base hotel, transfer to your tree hotel for game watching at the floodlit water hole.",
-                            "meals": [
-                                "Lunch",
-                                "Dinner"
-                            ],
-                            "activities": [
-                                "Game watching"
-                            ]
-                        },
-                        {
-                            "dayNumber": 2,
-                            "title": "Samburu",
-                            "description": "Continue north across the equator to the home of the samburu people. Marvel at the rugged scenery of isolated crags and springs. After a game drive, relax in the comfort of your lodge.",
-                            "meals": [
-                                "Breakfast",
-                                "Lunch",
-                                "Dinner"
-                            ],
-                            "activities": [
-                                "Game drive"
-                            ]
-                        },
-                        {
-                            "dayNumber": 3,
-                            "title": "Samburu Game Viewing",
-                            "description": "Morning and afternoon game drives along the Uaso Nyiro river. View carnivores and rare herbivores such as the Beisa oryx or the Grevy zebra.",
-                            "meals": [
-                                "Breakfast",
-                                "Lunch",
-                                "Dinner"
-                            ],
-                            "activities": [
-                                "Morning and afternoon game drives"
-                            ]
-                        },
-                        {
-                            "dayNumber": 4,
-                            "title": "Lake Nakuru",
-                            "description": "Drive to Lake Nakuru with stunning vistas between the escarpments of the Rift Valley. During game drive, behold the sight of pink flamingoes lining the alkaline lake.",
-                            "meals": [
-                                "Breakfast",
-                                "Lunch",
-                                "Dinner"
-                            ],
-                            "activities": [
-                                "Game drive",
-                                "Flamingo viewing"
-                            ]
-                        },
-                        {
-                            "dayNumber": 5,
-                            "title": "Nairobi",
-                            "description": "After breakfast, depart for Nairobi, arriving before lunch. Afternoon at your leisure.",
-                            "meals": [
-                                "Breakfast",
-                                "Lunch",
-                                "Dinner"
-                            ],
-                            "activities": [
-                                "At leisure"
-                            ]
-                        },
-                        {
-                            "dayNumber": 6,
-                            "title": "Lake Manyara",
-                            "description": "Cross the border to Tanzania at Namanga, stopping at Arusha for Lunch. Proceed to Lake Manyara for a game drive. Spend the night at the Lake Manyara Hotel.",
-                            "meals": [
-                                "Breakfast",
-                                "Lunch",
-                                "Dinner"
-                            ],
-                            "activities": [
-                                "Border crossing",
-                                "Game drive"
-                            ]
-                        },
-                        {
-                            "dayNumber": 7,
-                            "title": "Serengeti National Park",
-                            "description": "After breakfast, drive to Serengeti National Park via the Ngorongoro Conservation Area. Enjoy a picnic lunch en-route. Afternoon game drive in Serengeti.",
-                            "meals": [
-                                "Breakfast",
-                                "Lunch",
-                                "Dinner"
-                            ],
-                            "activities": [
-                                "Game drive"
-                            ]
-                        },
-                        {
-                            "dayNumber": 8,
-                            "title": "Serengeti Game Drives",
-                            "description": "Full day of game drives in Serengeti National Park with picnic lunch. Explore the vast plains and witness the incredible wildlife.",
-                            "meals": [
-                                "Breakfast",
-                                "Lunch",
-                                "Dinner"
-                            ],
-                            "activities": [
-                                "Full day game drives"
-                            ]
-                        },
-                        {
-                            "dayNumber": 9,
-                            "title": "Ngorongoro Crater",
-                            "description": "Drive to Ngorongoro Crater after breakfast. Descend into the crater for a full day of game viewing with picnic lunch.",
-                            "meals": [
-                                "Breakfast",
-                                "Lunch",
-                                "Dinner"
-                            ],
-                            "activities": [
-                                "Crater game drive"
-                            ]
-                        },
-                        {
-                            "dayNumber": 10,
-                            "title": "Arusha - Nairobi",
-                            "description": "Return to Arusha for lunch before crossing back into Kenya. Arrive in Nairobi in the late afternoon.",
-                            "meals": [
-                                "Breakfast",
-                                "Lunch"
-                            ],
-                            "activities": [
-                                "Border crossing"
-                            ]
-                        },
-                        {
-                            "dayNumber": 11,
-                            "title": "Departure",
-                            "description": "Transfer to Nairobi airport for your onward flight.",
-                            "meals": [
-                                "Breakfast"
-                            ],
-                            "activities": [
-                                "Airport transfer"
-                            ]
-                        }
-                    ]
-                },
-                "prices": null
-            }
+                }
             ]
-            }
-        ]
-    }
-]
+        },
+        {
+            "id": "uganda-luxury-safaris",
+            "title": "Uganda Luxury Safaris",
+            "description": "Premium safari experiences in Uganda",
+            "subcategories": [
+                {
+                    "id": "luxury-safari-destinations",
+                    "title": "Luxury Safari Destinations",
+                    "safaris": [
+                        {
+                            "id": "uaa-07",
+                            "slug": "uaa-07-luxury-safari",
+                            "title": "Uganda Luxury Safari",
+                            "destination": "Various",
+                            "durationLabel": "Various",
+                            "description": "Content to be provided.",
+                            "categoryPath": [
+                                "Uganda Luxury Safaris",
+                                "Luxury Safari Destinations"
+                            ],
+                            "prices": null
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "uganda-safaris-across-east-africa",
+            "title": "Safaris Across East Africa",
+            "description": "Multi-country safari experiences",
+            "subcategories": [
+                {
+                    "id": "east-africa-combinations",
+                    "title": "East Africa Safari Combinations",
+                    "safaris": [
+                        {
+                            "id": "uaa-12",
+                            "slug": "uaa-12-kenya-tanzania-11-days",
+                            "title": "Kenya / Tanzania Safari",
+                            "destination": "Kenya, Tanzania, Uganda",
+                            "durationLabel": "11 Days",
+                            "description": "An 11-day safari covering the best of Kenya and Tanzania, including tree hotels, Samburu, Lake Nakuru, Lake Manyara, Serengeti and Ngorongoro Crater.",
+                            "categoryPath": [
+                                "Safaris Across East Africa",
+                                "East Africa Safari Combinations"
+                            ],
+                            "images": [
+                                {
+                                    "src": "/images/safaris/uganda/eastafrica/combo.jpg",
+                                    "alt": "East Africa Safari"
+                                }
+                            ],
+                            "itinerary": {
+                                "durationDays": 11,
+                                "days": [
+                                    {
+                                        "dayNumber": 1,
+                                        "title": "Tree Hotel",
+                                        "description": "Morning drive to the forested highlands of the Aberdares. After lunch at the base hotel, transfer to your tree hotel for game watching at the floodlit water hole.",
+                                        "meals": [
+                                            "Lunch",
+                                            "Dinner"
+                                        ],
+                                        "activities": [
+                                            "Game watching"
+                                        ]
+                                    },
+                                    {
+                                        "dayNumber": 2,
+                                        "title": "Samburu",
+                                        "description": "Continue north across the equator to the home of the samburu people. Marvel at the rugged scenery of isolated crags and springs. After a game drive, relax in the comfort of your lodge.",
+                                        "meals": [
+                                            "Breakfast",
+                                            "Lunch",
+                                            "Dinner"
+                                        ],
+                                        "activities": [
+                                            "Game drive"
+                                        ]
+                                    },
+                                    {
+                                        "dayNumber": 3,
+                                        "title": "Samburu Game Viewing",
+                                        "description": "Morning and afternoon game drives along the Uaso Nyiro river. View carnivores and rare herbivores such as the Beisa oryx or the Grevy zebra.",
+                                        "meals": [
+                                            "Breakfast",
+                                            "Lunch",
+                                            "Dinner"
+                                        ],
+                                        "activities": [
+                                            "Morning and afternoon game drives"
+                                        ]
+                                    },
+                                    {
+                                        "dayNumber": 4,
+                                        "title": "Lake Nakuru",
+                                        "description": "Drive to Lake Nakuru with stunning vistas between the escarpments of the Rift Valley. During game drive, behold the sight of pink flamingoes lining the alkaline lake.",
+                                        "meals": [
+                                            "Breakfast",
+                                            "Lunch",
+                                            "Dinner"
+                                        ],
+                                        "activities": [
+                                            "Game drive",
+                                            "Flamingo viewing"
+                                        ]
+                                    },
+                                    {
+                                        "dayNumber": 5,
+                                        "title": "Nairobi",
+                                        "description": "After breakfast, depart for Nairobi, arriving before lunch. Afternoon at your leisure.",
+                                        "meals": [
+                                            "Breakfast",
+                                            "Lunch",
+                                            "Dinner"
+                                        ],
+                                        "activities": [
+                                            "At leisure"
+                                        ]
+                                    },
+                                    {
+                                        "dayNumber": 6,
+                                        "title": "Lake Manyara",
+                                        "description": "Cross the border to Tanzania at Namanga, stopping at Arusha for Lunch. Proceed to Lake Manyara for a game drive. Spend the night at the Lake Manyara Hotel.",
+                                        "meals": [
+                                            "Breakfast",
+                                            "Lunch",
+                                            "Dinner"
+                                        ],
+                                        "activities": [
+                                            "Border crossing",
+                                            "Game drive"
+                                        ]
+                                    },
+                                    {
+                                        "dayNumber": 7,
+                                        "title": "Serengeti National Park",
+                                        "description": "After breakfast, drive to Serengeti National Park via the Ngorongoro Conservation Area. Enjoy a picnic lunch en-route. Afternoon game drive in Serengeti.",
+                                        "meals": [
+                                            "Breakfast",
+                                            "Lunch",
+                                            "Dinner"
+                                        ],
+                                        "activities": [
+                                            "Game drive"
+                                        ]
+                                    },
+                                    {
+                                        "dayNumber": 8,
+                                        "title": "Serengeti Game Drives",
+                                        "description": "Full day of game drives in Serengeti National Park with picnic lunch. Explore the vast plains and witness the incredible wildlife.",
+                                        "meals": [
+                                            "Breakfast",
+                                            "Lunch",
+                                            "Dinner"
+                                        ],
+                                        "activities": [
+                                            "Full day game drives"
+                                        ]
+                                    },
+                                    {
+                                        "dayNumber": 9,
+                                        "title": "Ngorongoro Crater",
+                                        "description": "Drive to Ngorongoro Crater after breakfast. Descend into the crater for a full day of game viewing with picnic lunch.",
+                                        "meals": [
+                                            "Breakfast",
+                                            "Lunch",
+                                            "Dinner"
+                                        ],
+                                        "activities": [
+                                            "Crater game drive"
+                                        ]
+                                    },
+                                    {
+                                        "dayNumber": 10,
+                                        "title": "Arusha - Nairobi",
+                                        "description": "Return to Arusha for lunch before crossing back into Kenya. Arrive in Nairobi in the late afternoon.",
+                                        "meals": [
+                                            "Breakfast",
+                                            "Lunch"
+                                        ],
+                                        "activities": [
+                                            "Border crossing"
+                                        ]
+                                    },
+                                    {
+                                        "dayNumber": 11,
+                                        "title": "Departure",
+                                        "description": "Transfer to Nairobi airport for your onward flight.",
+                                        "meals": [
+                                            "Breakfast"
+                                        ],
+                                        "activities": [
+                                            "Airport transfer"
+                                        ]
+                                    }
+                                ]
+                            },
+                            "prices": null
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
 }
