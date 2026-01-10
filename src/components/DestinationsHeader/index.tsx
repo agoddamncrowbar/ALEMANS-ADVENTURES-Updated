@@ -43,8 +43,8 @@ export default function DestinationsHeader({
       "Travel Info": "travel-info",
     },
     Uganda: {
-      "National Parks": "national-parks",
       "Safaris": "safaris",
+      "National Parks": "national-parks",
       "Travel Info": "travel-info",
     },
     Rwanda: {
