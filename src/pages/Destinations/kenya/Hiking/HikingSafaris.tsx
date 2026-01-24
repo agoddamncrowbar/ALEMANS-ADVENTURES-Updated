@@ -12,7 +12,7 @@ export default function HikingSafaris() {
   const navigate = useNavigate();
 
   return (
-    <div className="space-y-16">
+    <div className="space-y-16 m-10">
       <h1 className="text-3xl font-light uppercase tracking-wide">
         {data.title}
       </h1>

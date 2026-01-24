@@ -95,6 +95,11 @@
           "title": "Mt. Kenya Hiking and Trekking",
           "duration": "4 Days",
           "route": "Sirimon Out Sirimon Route",
+          "images": [
+            "/images/safaris/kenya/mtkenya/image3.jpg",
+            "/images/safaris/kenya/mtkenya/image2.jpg",
+            "/images/safaris/kenya/mtkenya/image1.jpg"
+          ],
           "itinerary": [
             {
               "day": "Day 1",
@@ -136,6 +141,9 @@
           "title": "Mt. Kenya Traverse",
           "duration": "5 Days",
           "route": "Sirimon Out Naro Moru Traverse",
+          "images": [
+            "/images/safaris/kenya/mtkenya/i2.jpg"
+          ],
           "itinerary": [
             {
               "day": "Day 1",
@@ -170,6 +178,9 @@
           "title": "MT. KENYA : NAROMORU ROUTE",
           "duration": "4 Days",
           "route": "Naro Moru Route",
+          "images": [
+            "/images/safaris/kenya/mtkenya/i1.jpg"
+          ],
           "itinerary": [
             {
               "day": "Day 1",
@@ -211,6 +222,9 @@
           "title": "Mt KENYA BATIAN TECHNICAL CLIMBING",
           "duration": "8 Days",
           "route": "Batian Route",
+          "images": [
+            "/images/safaris/kenya/mtkenya/i3.jpg"
+          ],
           "itinerary": [
             {
               "day": "Day 1",
@@ -323,6 +337,9 @@
           "title": "MT. KENYA: IN NARO MORU - OUT CHOGORIA",
           "duration": "6 Days",
           "route": "Naromoru - Chogoria Route",
+          "images": [
+            "/images/safaris/kenya/mtkenya/i1.jpg"
+          ],
           "itinerary": [
             {
               "day": "Day 1",
@@ -374,6 +391,9 @@
           "title": "MT. KENYA: SIRIMON - OUT CHOGORIA",
           "duration": "6 Days",
           "route": "Sirimon - Chogoria Route",
+          "images": [
+            "/images/safaris/kenya/mtkenya/i4.jpg"
+          ],
           "itinerary": [
             {
               "day": "Day 1",
@@ -425,6 +445,9 @@
           "title": "MT. KENYA: IN SIRIMON - OUT CHOGORIA",
           "duration": "7 Days",
           "route": "Sirimon - Chogoria Route",
+          "images": [
+            "/images/safaris/kenya/mtkenya/i5.jpg"
+          ],
           "itinerary": [
             {
               "day": "Day 1",

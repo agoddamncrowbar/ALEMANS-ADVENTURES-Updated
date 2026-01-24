@@ -10,4 +10,5 @@ export interface Safari {
 export interface GeneralInfo {
   title: string
   description: string
+  slug: string
 }

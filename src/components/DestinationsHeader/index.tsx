@@ -32,7 +32,7 @@ export default function DestinationsHeader({
       "Tours and Safaris": "safaris",
       "National Parks": "national-parks",
       "Hiking & Trekking": "hiking",
-      "Cultural & Sports": "cultural-sports",
+      "Culture & Sports": "culture",
       "Beach & Water Sports": "water-sports",
       "Bird Watching": "bird-watching",
       "Travel Info": "travel-info",

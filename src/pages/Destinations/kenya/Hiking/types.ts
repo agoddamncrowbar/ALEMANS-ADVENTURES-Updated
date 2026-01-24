@@ -24,6 +24,7 @@ export interface HikingSafari {
   title: string;
   duration: string;
   route?: string;
+  images?: string[];
   itinerary: HikingItineraryDay[];
   pricing?: {
     seasons: string[];
