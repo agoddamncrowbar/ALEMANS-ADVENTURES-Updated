@@ -11,6 +11,10 @@
         {
             "category": "Forest Birds",
             "items": [  "Great Blue Turaco", "Hartlaub's Turaco", "Blue-headed Bee-eater", "Eastern Double-collared Sunbird"]
+        },
+        {
+            "category": "Savannah Birds",
+            "items": ["Common Ostrich", "Somali Ostrich", "Kori Bustard", "White-bellied Bustard", "Ground Hornbill", "Von der Decken's Hornbill"]
         }
     ],
     "essentials": [

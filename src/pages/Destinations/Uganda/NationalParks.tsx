@@ -21,7 +21,7 @@ interface ParkSection {
 type ParkCategory = "national" | "popular" | "conservancies";
 
 
-export default function UgandaNationalParks() {
+export default function UgandaParks() {
   const [activeIndex, setActiveIndex] = useState(0);
   const [category, setCategory] = useState<ParkCategory>("popular");  
   const [showDropdown, setShowDropdown] = useState(false);

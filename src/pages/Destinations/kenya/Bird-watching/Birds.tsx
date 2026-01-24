@@ -16,13 +16,17 @@ export default function Birdwatching() {
     () => getRandomImage(imagesData.locations),
     [activeLocation]
   );
+  const birdImage = useMemo(
+    () => getRandomImage(imagesData.birds),
+    [activeTab]
+  );
 
   return (
     <section className="max-w-7xl mx-auto">
       {/* HERO SECTION */}
       <div className="relative h-96 overflow-hidden">
         <img
-          src="https://images.unsplash.com/photo-1444464666168-49d633b86797?w=1200&auto=format&fit=crop"
+          src={birdImage}
           alt="Birdwatching"
           className="absolute inset-0 w-full h-full object-cover"
         />
@@ -155,8 +159,10 @@ export default function Birdwatching() {
               {locationsData.locations.map((loc) => (
                 <li key={loc.id}>
                   <button
-                    onClick={() => setActiveLocation(loc)}
-                    className={`w-full text-left px-4 py-3 text-sm uppercase tracking-wide transition-colors ${
+                    onClick={() => {setActiveLocation(loc);  
+                      window.scrollTo({ top: 0, behavior: "smooth", });
+                    }}
+                      className={`w-full text-left px-4 py-3 text-sm uppercase tracking-wide transition-colors ${
                       activeLocation.id === loc.id
                         ? "bg-[#1A0A0B] text-white"
                         : "border border-[#1A0A0B]/20 text-[#1A0A0B]/85 hover:bg-[#1A0A0B]/5"
@@ -167,17 +173,6 @@ export default function Birdwatching() {
                 </li>
               ))}
             </ul>
-          </div>
-
-          {/* ADDITIONAL IMAGE */}
-          <div className="bg-white border border-[#1A0A0B]/10 overflow-hidden shadow-sm">
-            <div className="relative h-80">
-              <img
-                src="https://images.unsplash.com/photo-1552728089-57bdde30beb3?w=800&auto=format&fit=crop"
-                alt="Birds"
-                className="absolute inset-0 w-full h-full object-cover opacity-50"
-              />
-            </div>
           </div>
         </div>
       </div>
