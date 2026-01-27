@@ -32,10 +32,9 @@ export const nationalParksData: ParkSection[] = [
     },
     {
         id:"amboseli",
-        image: "/images/parks/aberdare.jpg",
+        image: "/images/safaris/kenya/excursions/amboseli.jpg",
         gallery: [
-            "/images/parks/aberdare1.jpg",
-            "/images/parks/aberdare2.jpg"
+            "/images/safaris/kenya/excursions/amboseli1.jpg",
         ],       
         header: "Amboseli National Park",
         content: `This park is 392 sq kms and also referred to as the foot of Mount Kilimanjaro the highest standing mountain in the world at 5900 meters. The park is at an attitude of about 1200m – 1400m. The park is very famous in Kenya as it holds the biggest number of Elephants due to its swampy grasslands. The park is more open with no forests and thus easier to sport the wild animals including the Lions. During the dry season a captivating feature is the simmering dry lake bed where false mirages of populated horizons, interspersed with herds of zebra, vast herds of elephants, wildebeest, giraffe, impala and other many animals are a main attraction. The nomadic, richly decorated Maasai warriors who are deeply steeped in traditional culture entertain visitors with enchanting dances of ageless Africa.. The park is about 270 km south of Nairobi and about 4 hours drive.`,
@@ -89,10 +88,10 @@ export const nationalParksData: ParkSection[] = [
     },
     {
         id:"naivasha",
-        image: "/images/parks/aberdare.jpg",
+        image: "/images/safaris/kenya/excursions/lnaivasha.jpg",
         gallery: [
-            "/images/parks/aberdare1.jpg",
-            "/images/parks/aberdare2.jpg"
+            "/images/safaris/kenya/excursions/lnaivasha1.jpg",
+            "/images/safaris/kenya/excursions/lnaivasha2.jpg"
         ],
         header: "Lake Naivasha",
         content: `This is a fresh water lake. The lake is approximately 139 sq kms and it’s the highest of the rift valley lakes at1,884 m ( 6,180 ft).The lake has an average depth of 6m ( 20 ft ), with the deepest area being at crescent island at 30m (100ft). It is also home to a big number of about 400 bird species. The surrounding farms are the vineyard of Kenya and a lot of flower farming. There is a small beautiful crater lake to the western shores of the lake. The lake is very close to hells Gate Park which is the only park in Kenya whereby you can walk among the wild animals without to worry.
@@ -101,10 +100,9 @@ export const nationalParksData: ParkSection[] = [
     },
     {
         id:"nakuru",
-        image: "/images/parks/aberdare.jpg",
+        image: "/images/safaris/kenya/excursions/lnakuru.jpg",
         gallery: [
-            "/images/parks/aberdare1.jpg",
-            "/images/parks/aberdare2.jpg"
+            "/images/safaris/kenya/excursions/lnakuru1.jpg"
         ],
         header: "Lake Nakuru",
         content: `Created in 1961 This Park covers some 200 sq kms. It is a shallow about 4 meters deep soda lake. It is commonly referred to as the words biggest birds spectacle for it holds some 2 million flamingos (both greater and lesser) all year round along with about 450 species of other birds. The park also holds thousands of other wildlife except the Elephants because of its closeness to Nakuru town and Kenya s 4 th biggest cities. This park has also the famous Rhino sanctuary (both Black and white) that holds about 60 animals.
@@ -149,10 +147,10 @@ Hells gate is a walking park at an altitude of 1560 – 2187 meters and covering
     },
     {
         id:"masaimara",
-        image: "/images/parks/aberdare.jpg",
+        image: "/images/safaris/kenya/excursions/maasai_mara.jpg",
         gallery: [
-            "/images/parks/aberdare1.jpg",
-            "/images/parks/aberdare2.jpg"
+            "/images/safaris/kenya/maasai-mara/image2.jpg",
+            "/images/safaris/kenya/maasai-mara/image.png",
         ],
         header: "Masai Mara Game Reserve",
         content: ` This is the most famous park in Kenya and is about 280 kms from Nairobi. The park is 1320 sq kms and on the northern Serengeti Making a total of 25,000 sq kms when both Mara and Serengeti are combined. It is slab of open grasslands dotted with acacia trees. It is watered by the tree lined Mara River and its tributary Talek river. On the western side is the Oloololo Escapment and where a lot of Game is concentrated. This area is also swampy and difficult to access during the rainy season.
@@ -164,10 +162,8 @@ Main attractions here include: The big five animals, Hot air ballooning, Huge sa
     },
     {
         id:"meru",
-        image: "/images/parks/aberdare.jpg",
+        image: "/images/safaris/kenya/excursions/meru.jpg",
         gallery: [
-            "/images/parks/aberdare1.jpg",
-            "/images/parks/aberdare2.jpg"
         ],
         header: "MERU NATIONAL PARK / MWINGI /KORA /BISANADI / RAHORE GAME RESERVES",
         content: `This park at an attitude of between 366-914 meters and covering an area of 870 sq Kms has abundant rainfall and numerous permanent springs flowing down from Mount Kenya. The park is partly covered by forest, tall grasslands and swampy. This park is home to all the animals including the white Rhino, Elephants, Grevy zebra. The park is also home to Joy and George Adamson where they raised the orphaned lion and leopard cubs until they were old enough to be returned. The tracks through the park are well maintained.
@@ -175,7 +171,7 @@ Have numerous permanent springs and a wealth of birdlife, which includes Leopard
 `,
         subsections: []
     },
-     {
+    {
         id:"elgon",
         image: "/images/parks/aberdare.jpg",
         gallery: [
@@ -186,12 +182,12 @@ Have numerous permanent springs and a wealth of birdlife, which includes Leopard
         content: `Mount Elgon lies at an altitude of about 2500-4200 meters and is about 470 kilometers from Nairobi. Mount Elgon National Park is one of the most beautiful, truly wild and intact sanctuaries. Game viewing is excellent. The Park provides a home to over 400 Elephants as well as Buffaloes, protected Columbus and blue Monkeys, giant`,
         subsections: []
     },
-     {
+    {
         id:"mountkenya",
-        image: "/images/parks/aberdare.jpg",
+        image: "/images/safaris/kenya/mtkenya/i1.jpg",
         gallery: [
-            "/images/parks/aberdare1.jpg",
-            "/images/parks/aberdare2.jpg"
+            "/images/safaris/kenya/excursions/i2.jpg",
+            "/images/safaris/kenya/excursions/i3.jpg",
         ],
         header: "MT. KENYA NATIONAL PARK.",
         content: `These parks and game reserves are part of the most fascinating sanctuaries in terms of scenic splendor, and the great variety of wildlife found here. Mount Kenya National Park lies at an altitude of about 3400-5200 meters. It offers excellent game viewing, mountain climbing and breaking scenery that that includes glaciers, tarns and peaks. There are also mineral springs. According to the local folklore, Kenya owes its very name to this majestic Mountain, which is also ranked as the second highest mountain in Africa after MT. Kilimanjaro. Mt Kenya National Park is the center piece of this sanctuary. Part of the mountains attractions is the variation of the flora and fauna found at different altitudes. Dry uplands forest covers the lower slopes while true mountains forests begins at an altitude of 2000 meters and comprise of cedar, Meru Oak and Pod trees. A belt bamboo forest that merges with smaller trees interspersed with glades begins at an altitude of 2500 meters. The forest is home to a variety of animals and rare plant species. The wildlife in the sanctuary includes Columbus monkeys, Sykes monkeys, Bushbuck, Buffalo, Elephant, Olive Baboon, Waterbuck, Black Rhino, Leopard, Giant forest Hog, Genet cats, Hyena and the elusive Bongo to name but a few. 
@@ -200,12 +196,12 @@ Sightings of albino Zebra have been recorded in these sanctuaries. The mountain 
 `,
         subsections: []
     },
-     {
+    {
         id:"nairobi",
-        image: "/images/parks/aberdare.jpg",
+        image: "/images/safaris/kenya/excursions/nat_park.jpg",
         gallery: [
-            "/images/parks/aberdare1.jpg",
-            "/images/parks/aberdare2.jpg"
+            "/images/safaris/kenya/excursions/nat_park1.jpg",
+            "/images/safaris/kenya/excursions/nat_park2.jpg"
         ],
         header: "NAIROBI NATIONAL PARK",
         content: `This is the oldest park in Kenya. It was gazetted in 1946. The park is a glorious stretch of savannah that is set against the dramatic skyline of Nairobi, the capital city. Its only 10 kms from the city center and thus making Nairobi the only city in the world that borders a national game park. The Big five are well represented except the elephant.  Another unique feature of the park is that it houses the animal orphanage and also the safari walk. The park is also ideal for ornithological safaris as four hundred species of birdlife have been recorded.`,
@@ -237,10 +233,8 @@ The graves of Sir, William Northup Macmillan who was a great philanthropist and 
     },
      {
         id:"samburu",
-        image: "/images/parks/aberdare.jpg",
+        image: "/images/safaris/kenya/samburu/image1.jpg",
         gallery: [
-            "/images/parks/aberdare1.jpg",
-            "/images/parks/aberdare2.jpg"
         ],
         header: "SAMBURU / BUFFALO SPRINGS/ SHABA NATIONAL RESERVE",
         content: `The highlights of these reserves are spectacular scenic beauty, rivers and forests. The local people are rich in colorful heritage and traditions. Over 200 species of birds exist here together with all kinds of wild animals including the Big five. The seasonal but huge Uaso Nyiro River is the main source of water and also holds big numbers of crocodiles. There are also a number of permanent springs. Over three hundred sixty five species of birds have been identified. There are a number of Lodges and special campsites for accommodation.
@@ -248,23 +242,21 @@ The shaba National reserve is home to the monument of Joy Adamson who, together 
 `,
         subsections: []
     },
-     {
+    {
         id:"shimba",
-        image: "/images/parks/aberdare.jpg",
+        image: "/images/safaris/kenya/excursions/shimba.jpg",
         gallery: [
-            "/images/parks/aberdare1.jpg",
-            "/images/parks/aberdare2.jpg"
         ],
         header: "SHIMBA HILLS",
         content: `This park is 30 minutes south of Mombasa. This is a coastal forest1400 mts above sea level with a cool breeze from Kilimanjaro. The park is home to Lions, Elephants, Buffalos, Giraffe, as well as several species of primates. Africa’s second largest antelope the sable antelope is only found in this park. This is tropical African forest and one of the only places remaining as the treasures of birdlife and plants, shimba hills are famous for its beautiful landscape, which complice hills and valleys. Sheldrick falls which is 25 meters high is also an attraction.`,
         subsections: []
     },
-     {
+    {
         id:"tsavo",
-        image: "/images/parks/aberdare.jpg",
+        image: "/images/safaris/kenya/excursions/tsavo.jpg",
         gallery: [
-            "/images/parks/aberdare1.jpg",
-            "/images/parks/aberdare2.jpg"
+            "/images/safaris/kenya/excursions/tsavo1.jpg",
+            "/images/safaris/kenya/excursions/tsavo3.jpg"
         ],
         header: "TSAVO EAST / WEST NATIONAL PARK",
         content: `This is divided into East and West and is the biggest park in Kenya at 20,000 sqkms. The park is bisected by the Nairobi – Mombasa highway through the middle and thus very accessible from both cities. 
@@ -273,12 +265,11 @@ The places of interest here are Mzima underground springs, Shaitani lava flow, C
 `,
         subsections: []
     },
-     {
+    {
         id:"turkana",
-        image: "/images/parks/aberdare.jpg",
+        image: "/images/safaris/kenya/excursions/lturkana1.jpg",
         gallery: [
-            "/images/parks/aberdare1.jpg",
-            "/images/parks/aberdare2.jpg"
+            "/images/safaris/kenya/excursions/lturkana.jpg"
         ],
         header: "LAKE TURKANA",
         content: `This is also referred to as the Jade Sea or the Cradle of mankind. That was until
@@ -287,7 +278,7 @@ Kenya lived up to her title of the Cradle of Mankind and came up with yet anothe
 `,
         subsections: []
     },
-     {
+    {
         id:"kakamega",
         image: "/images/parks/aberdare.jpg",
         gallery: [

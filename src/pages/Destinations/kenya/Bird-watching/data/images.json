@@ -1,12 +1,14 @@
 {
     "birds": [
-        "/images/birds/bird1.jpg",
-        "/images/birds/bird2.jpg",
-        "/images/birds/bird3.jpg"
+        "/images/birds/owl.jpg",
+        "/images/birds/turaco.jpg",
+        "/images/birds/falcon.jpg",
+        "/images/birds/flamingo.jpg",
+        "/images/birds/heron.jpg"
     ],
     "locations": [
-        "/images/areas/area1.jpg",
-        "/images/areas/area2.jpg",
-        "/images/areas/area3.jpg"
+        "/images/safaris/kenya/budget-safaris/lakebogoria.png",
+        "/images/safaris/kenya/eastafrica/adv3.jpg",
+        "/images/safaris/kenya/samburu/image1.png"
     ]
 }

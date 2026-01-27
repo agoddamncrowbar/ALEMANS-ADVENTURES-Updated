@@ -1,16 +1,18 @@
-// hiking/adapters.ts
 import type { HikingSafari } from "./types";
 import type { Safari } from "../Safaris/types/safari";
+
 export function hikingToSafari(hike: HikingSafari): Safari {
   return {
     id: hike.code,
-    slug: hike.code, // ← IMPORTANT
+    slug: hike.code,
 
     title: hike.title,
     durationLabel: hike.duration,
     destination: "Kenya",
 
-    images: [{ src: "/images/hero.kenya.jpeg" }],
+    images: hike.images?.length
+      ? hike.images.map(src => ({ src }))
+      : [{ src: "/images/hero/kenya.jpeg" }], // fallback
 
     itinerary: {
       durationDays: hike.itinerary.length,
@@ -36,7 +38,6 @@ export function hikingToSafari(hike: HikingSafari): Safari {
       "International flights",
       "Tips",
       "Personal hiking gear"
-    ],
+    ]
   };
 }
-

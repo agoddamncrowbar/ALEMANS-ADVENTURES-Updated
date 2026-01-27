@@ -3,10 +3,12 @@ import type { ParkSection } from "./NationalParksInfo";
 export const conservanciesData: ParkSection[] = [
  {
         id:"conservancy",
-        image: "/images/parks/aberdare.jpg",
+        image: "/images/conservancies/kenya/pajeta.jpg",
         gallery: [
-            "/images/parks/aberdare1.jpg",
-            "/images/parks/aberdare2.jpg"
+            "/images/parks/olpajeta.jpg",
+            "/images/parks/aberdare2.jpg",
+            "/images/safaris/kenya/maasai-mara/image.png",
+            "/images/safaris/kenya/maasai-mara/image2.jpg",
         ],
         header: "Kenya Public and Private wildlife conservancies",
         content: `Kenya has about 110 wildlife conservancies, all promoting the placid co-existence of people and wildlife in mutual well-being. Solio Ranch, Taita Hills Sanctuary, Kimama Wildlife Sanctuary, and the Ol Chorro Oiroua Ranch were among the trailblazers. Improved security, better land management, income, employment and support to community projects have all encouraged the rise of conservancies in Kenya, spread across 22 counties and covering over 7.56 million acres.
@@ -18,9 +20,9 @@ If you want to see the rarest large animal on Earth, then central Kenya’s supe
     },
      {
         id:"pajeta",
-        image: "/images/parks/aberdare.jpg",
+        image: "/images/conservancies/kenya/pajeta.jpg",
         gallery: [
-            "/images/parks/aberdare1.jpg",
+            "/images/parks/olpajeta.jpg",
             "/images/parks/aberdare2.jpg"
         ],
         header: "Ol Pejeta Conservancy",
@@ -29,10 +31,9 @@ If you want to see the rarest large animal on Earth, then central Kenya’s supe
     },
      {
         id:"taitahills",
-        image: "/images/parks/aberdare.jpg",
+        image: "/images/safaris/kenya/excursions/taitahills.png",
         gallery: [
             "/images/parks/aberdare1.jpg",
-            "/images/parks/aberdare2.jpg"
         ],
         header: "Taita Hills Wildlife Sanctuary",
         content: `The Taita Hills Wildlife Sanctuary(THWS) derives its name from the surrounding clusters of hills and is an integral part of the Eastern Arc forests classified as a biodiversity hotspot. Before the establishment of THWS on Bura Block along Mwatate-Taveta Road, the land was used as a game hunting ground. THWS was established in 1970 to make the area more attractive to wildlife and tourists, allow conservation, and promote wildlife viewing. The sanctuary covers an area of 28,000 acres of mosaic habitat where the plant physiognomy is riverine forest, savanna wood and grassland. The vegetation formation is usually dense, stratified and always dominated by Acacia /Commiphora trees and may appear to be evergreen in wet areas such as in the central lowlands of the sanctuary. More than 50 species of large mammals and 300 species of birds have been recorded in THWS.
@@ -43,10 +44,10 @@ Encompassing forests, mountains, rivers and grasslands, lines up against the vas
     },
      {
         id:"maranaboisho",
-        image: "/images/parks/aberdare.jpg",
+        image: "/images/safaris/kenya/excursions/maasai_mara.jpg",
         gallery: [
-            "/images/parks/aberdare1.jpg",
-            "/images/parks/aberdare2.jpg"
+            "/images/safaris/kenya/budget-safaris/maasaimara1.png",
+            "/images/safaris/kenya/budget-safaris/maasaimara2.png"
         ],
         header: "Mara Naboisho Conservercy",
         content: `This Conservancy  covers more than 200km²/77mi², is one of the most celebrated of the Masai Mara–area conservancies. It’s known for having one of the densest populations of lions in Africa (as well as all the other cats). The landscape ranges from wide-open grasslands to light bush, both of which attract plenty of elephants. There are lots of activities on offer here, including walking and bush-camping safaris, that cannot be done in the nearby national reserve. Mara Naboisho runs a highly regarded community-development program.`,
@@ -54,10 +55,9 @@ Encompassing forests, mountains, rivers and grasslands, lines up against the vas
     },
      {
         id:"lewa",
-        image: "/images/parks/aberdare.jpg",
+        image: "/images/safaris/kenya/budget-safaris/lewa2.jpg",
         gallery: [
-            "/images/parks/aberdare1.jpg",
-            "/images/parks/aberdare2.jpg"
+            "/images/safaris/kenya/budget-safaris/lewa_conservancy.jpg"
         ],
         header: "Lewa Wildlife Conservancy",
         content: `This is the original Kenyan conservancy and probably the most famous. This was once a large cattle ranch that was converted to wildlife conservation. It continues to lead the way in the conservancy field. The landscapes of Lewa, which are overlooked by Mt Kenya, are archetypal East Africa and the conservancy is home to all of the Big Five (lion, leopard, buffalo, elephant and rhino).  `,
@@ -65,10 +65,9 @@ Encompassing forests, mountains, rivers and grasslands, lines up against the vas
     },
      {
         id:"borana",
-        image: "/images/parks/aberdare.jpg",
+        image: "/images/safaris/kenya/photo/borana.jpg",
         gallery: [
-            "/images/parks/aberdare1.jpg",
-            "/images/parks/aberdare2.jpg"
+            
         ],
         header: "Borana Conservancy",
         content: `This is considered one of Kenya’s finest conservancies. What started as a private cattle ranch has grown into a successful 130km²/50mi² conservation area. It now teems with wildlife, including a substantial black rhino population and many elephants. The conservancy has a very impressive community-development angle supporting a number of education and health projects.`,
@@ -76,10 +75,10 @@ Encompassing forests, mountains, rivers and grasslands, lines up against the vas
     },
      {
         id:"maranorth",
-        image: "/images/parks/aberdare.jpg",
+        image: "/images/safaris/kenya/maasai-mara/image.png",
         gallery: [
-            "/images/parks/aberdare1.jpg",
-            "/images/parks/aberdare2.jpg"
+            "/images/safaris/kenya/maasai-mara/image2.jpg",
+            "/images/safaris/kenya/budget-safaris/maasaimara1.png"
         ],
         header: "Mara North Conservancy",
         content: `The area now known as the Mara North Conservancy was in extremely poor state back in the 1980s and 1990s. Ownership of the land was highly fragmented and the fencing between land boundaries caused major barriers for local and migrating wildlife. Overgrazing by the Maasai’s cattle caused degeneration of the land and threatened the future of the landowners. In 2009 a group of over 800 Maasai landowners joined together to save their land and livelihood by establishing the 320 km2 Mara North Conservancy. Thanks to the conservancy's conservation efforts and partnerships with lodges and safari organizations, the area’s wildlife is booming and the Maasai landowners have a brighter future ahead.
@@ -98,10 +97,10 @@ During your stay in the conservancy, your accommodation will offer a variety of 
     },
      {
         id:"solio",
-        image: "/images/parks/aberdare.jpg",
+        image: "/images/safaris/kenya/excursions/solio.jpg",
         gallery: [
-            "/images/parks/aberdare1.jpg",
-            "/images/parks/aberdare2.jpg"
+            "/images/safaris/kenya/excursions/solio1.jpg",
+            "/images/safaris/kenya/excursions/solio2.jpg"
         ],
         header: "Solio Coservancy",
         content: `Solio Ranch Conservancy is probably one of Kenya’s most remarkable wildlife sanctuaries, nestled between Mount Kenya and the Aberdare Mountains in the Greater Laikipia Region. This privately owned conservancy spreads over 17,500 acres and forms one of the most successful black rhino protection and breeding projects in the country. This is a chance to see great numbers of rhinos and lions in their natural habitat, something not commonly seen in most tourist destinations in Kenya, other than the Solio Ranch.
