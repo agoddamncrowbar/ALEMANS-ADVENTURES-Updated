@@ -5,6 +5,8 @@ import { Routes, Route, Navigate } from "react-router-dom";
 import Safaris from "./Safaris/Safaris";
 import UgandaParks from "./NationalParks";
 import ScrollToTopFAB from "../../../components/ScrollToTopFAB";
+import Birdwatching from "./Bird-watching/Birds";
+
 export default function Uganda() {
   
 
@@ -17,6 +19,7 @@ export default function Uganda() {
             <Route index element={<Navigate to="safaris/" replace />} />
             <Route path="travel-info" element={<TravelInfo />} />
             <Route path="safaris/*" element={<Safaris />} />
+            <Route path="bird-watching" element={<Birdwatching />} />
             <Route path="national-parks" element={<UgandaParks/>}/>
         </Routes>
       </div>
