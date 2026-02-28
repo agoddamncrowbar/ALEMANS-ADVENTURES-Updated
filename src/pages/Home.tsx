@@ -1,11 +1,21 @@
 import Layout from "../components/Layout";
 import Hero from "../components/Hero";
 import ScrollToTopFAB from "../components/ScrollToTopFAB";
+import SEO from "../components/SEO";
 
 export default function Home() {
   return (
     <Layout showHero={true} HeroComponent={<Hero />}>
+      <SEO
+        title="Alemans Adventures | East Africa Safari Tours"
+        description="Discover unforgettable safaris across Kenya, Tanzania, Uganda, Rwanda and Zanzibar."
+        canonical="https://www.alemansadventures.com/"
+      />
       {/* Welcome Section */}
+      <h1 className="sr-only">
+        East Africa Safari Tours and Travel Packages
+      </h1>
+
       <section className="max-w-6xl mx-auto py-20 px-6 text-center">
         <div className="w-12 h-px bg-[#F5D547] mx-auto mb-6"></div>
         <h2 className="text-3xl md:text-4xl font-light uppercase tracking-[0.15em] text-[#1A0A0B] mb-6">
@@ -28,9 +38,15 @@ export default function Home() {
           <div className="absolute inset-0 flex items-center justify-center">
             <a
               href="/destinations"
+              onClick={(e) => {
+                e.preventDefault();
+                const countries = ["kenya", "zanzibar", "tanzania", "uganda", "rwanda"];
+                const random = countries[Math.floor(Math.random() * countries.length)];
+                window.location.href = `/destinations/${random}/safaris`;
+              }}
               className="px-12 py-4 bg-[#F5D547] text-[#1A0A0B] font-medium uppercase tracking-widest hover:bg-[#E8C93A] transition-all duration-300 text-sm border-2 border-[#F5D547] hover:border-[#E8C93A]"
             >
-              Explore Destinations
+              Explore Safaris
             </a>
           </div>
         </div>

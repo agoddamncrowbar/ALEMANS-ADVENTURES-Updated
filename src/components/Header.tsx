@@ -30,11 +30,9 @@ export default function Header() {
           <nav className="hidden md:flex space-x-8 font-light">
             {[
               { name: "Home", path: "/" },
-              { name: "About", path: "/about" },
+              { name: "About Us", path: "/about" },
               { name: "Destinations", path: "/destinations" },
-              { name: "Journals", path: "/journals" }, //added journals
-              { name: "Reviews", path: "/reviews" }, //added reviews
-              { name: "Contact", path: "/contact" },
+              { name: "Contact us", path: "/contact" },
             ].map((link) => (
               <a
                 key={link.path}
