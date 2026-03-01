@@ -36,6 +36,7 @@ function App() {
         <Route path='/destinations' element={<Destinations/>}/>
         <Route path='/contact' element={<Contact/>}/>
         <Route path="/search" element={<SearchResults />} />
+        <Route path="/journals" element={<JournalsPage />} />
         <Route path="/journals/:id" element={<JournalDetail />} />
         <Route path="/reviews" element={<ReviewsPage />} />
         <Route path="/:section/:footerName" element={<DocumentPage />} />

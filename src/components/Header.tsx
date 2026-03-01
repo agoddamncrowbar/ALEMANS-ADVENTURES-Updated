@@ -32,6 +32,8 @@ export default function Header() {
               { name: "Home", path: "/" },
               { name: "About Us", path: "/about" },
               { name: "Destinations", path: "/destinations" },
+              { name: "Journals", path: "/journals" },
+              { name: "Reviews", path: "/reviews" },
               { name: "Contact us", path: "/contact" },
             ].map((link) => (
               <a
