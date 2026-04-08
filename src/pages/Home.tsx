@@ -2,6 +2,7 @@ import Layout from "../components/Layout";
 import Hero from "../components/Hero";
 import ScrollToTopFAB from "../components/ScrollToTopFAB";
 import SEO from "../components/SEO";
+import ImageGrid from "../components/home/ImageGrid";
 
 export default function Home() {
   return (
@@ -27,8 +28,8 @@ export default function Home() {
       </section>
 
       {/* Featured Image Section */}
-      <section className="mb-20">
-        <div className="relative h-[400px] md:h-[500px] overflow-hidden border border-gray-200">
+      <section >
+        <div className="relative h-100 md:h-125 overflow-hidden ">
           <img
             src="https://images.unsplash.com/photo-1549366021-9f761d450615?w=1600&h=900&fit=crop"
             alt="East Africa Safari"
@@ -78,43 +79,7 @@ export default function Home() {
       </section>
 
       {/* Image Grid Section */}
-      <section className="max-w-7xl mx-auto py-20 px-6">
-        <div className="grid md:grid-cols-3 gap-px bg-gray-200 border border-gray-200">
-          <div className="relative h-[300px] overflow-hidden group">
-            <img
-              src="/images/safaris/kenya/excursions/amboseli.jpg"
-              alt="Wildlife Safari"
-              className="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-500"
-            />
-            <div className="absolute inset-0 bg-[#1A0A0B] opacity-40 group-hover:opacity-20 transition-opacity duration-300"></div>
-            <div className="absolute bottom-0 left-0 right-0 p-6 bg-linear-to-t from-black/80 to-transparent">
-              <p className="text-white uppercase tracking-wider text-sm font-medium">Wildlife Encounters</p>
-            </div>
-          </div>
-          <div className="relative h-[300px] overflow-hidden group">
-            <img
-              src="/images/safaris/kenya/mtkenya/i3.jpg"
-              alt="Mountain Trekking"
-              className="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-500"
-            />
-            <div className="absolute inset-0 bg-[#1A0A0B] opacity-40 group-hover:opacity-20 transition-opacity duration-300"></div>
-            <div className="absolute bottom-0 left-0 right-0 p-6 bg-linear-to-t from-black/80 to-transparent">
-              <p className="text-white uppercase tracking-wider text-sm font-medium">Mountain Adventures</p>
-            </div>
-          </div>
-          <div className="relative h-[300px] overflow-hidden group">
-            <img
-              src="/images/safaris/zanzibar/budget/spice_tour.jpg"
-              alt="Cultural Experiences"
-              className="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-500"
-            />
-            <div className="absolute inset-0 bg-[#1A0A0B] opacity-40 group-hover:opacity-20 transition-opacity duration-300"></div>
-            <div className="absolute bottom-0 left-0 right-0 p-6 bg-linear-to-t from-black/80 to-transparent">
-              <p className="text-white uppercase tracking-wider text-sm font-medium">Cultural Journeys</p>
-            </div>
-          </div>
-        </div>
-      </section>
+      <ImageGrid />
 
       {/* Traveler Information Section */}
       <section className="bg-white py-20 px-6">
@@ -150,7 +115,7 @@ export default function Home() {
                   </p>
                 </div>
               </div>
-              <div className="relative h-[300px] border border-gray-200">
+              <div className="relative h-75 border border-gray-200">
                 <img
                   src="/images/birds/owl.jpg"
                   alt="Wildlife in East Africa"
@@ -172,7 +137,7 @@ export default function Home() {
                   colorful parks and gardens — a true delight to the eye.
                 </p>
               </div>
-              <div className="relative h-[300px] border border-gray-200 md:order-1">
+              <div className="relative h-75 border border-gray-200 md:order-1">
                 <img
                   src="https://images.unsplash.com/photo-1547471080-7cc2caa01a7e?w=800&h=600&fit=crop"
                   alt="Vegetation in East Africa"
@@ -194,7 +159,7 @@ export default function Home() {
                   with nature.
                 </p>
               </div>
-              <div className="relative h-[300px] border border-gray-200">
+              <div className="relative h-75 border border-gray-200">
                 <img
                   src="/images/safaris/zanzibar/budget/spice_tour.jpg"
                   alt="African Culture"
@@ -216,7 +181,7 @@ export default function Home() {
                   lakes, and the Indian Ocean with its coral reefs and white sandy beaches.
                 </p>
               </div>
-              <div className="relative h-[300px] border border-gray-200 md:order-1">
+              <div className="relative h-75 border border-gray-200 md:order-1">
                 <img
                   src="https://images.unsplash.com/photo-1589553416260-f586c8f1514f?w=800&h=600&fit=crop"
                   alt="East Africa Landscape"

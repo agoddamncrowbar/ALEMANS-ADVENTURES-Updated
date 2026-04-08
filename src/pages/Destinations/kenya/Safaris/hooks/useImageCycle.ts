@@ -1,12 +1,20 @@
-import { useEffect, useState } from "react";
+import { useEffect, useState, useRef } from "react";
 
-export function useImageCycle(
-  images: string[],
-  interval = 4000
-) {
+export function useImageCycle(images: string[], interval = 4000) {
   const [index, setIndex] = useState(0);
+  const imagesRef = useRef(images);
 
+  // Only restart timer if images array content actually changes
   useEffect(() => {
+    const hasChanged = 
+      images.length !== imagesRef.current.length ||
+      images.some((img, i) => img !== imagesRef.current[i]);
+    
+    if (!hasChanged) return;
+    
+    imagesRef.current = images;
+    setIndex(0); // Reset index when images change
+    
     if (!images.length) return;
 
     const timer = setInterval(

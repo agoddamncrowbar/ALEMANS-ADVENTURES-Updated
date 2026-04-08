@@ -3,17 +3,18 @@ import React from "react";
 import { useSafarisTree } from "./hooks/useSafarisTree";
 import SafariDetail from "./SafariDetail";
 import type { Safari } from "./types/safari";
+import SafariLoader from "../../../../components/destinations/SafariLoader";
 
 export function SafariDetailRoute() {
   const { categoryId, safariId } = useParams();
   const navigate = useNavigate();
-  const { categories, loading } = useSafarisTree(3); // fetch from API
+  const { data: categories = [], isLoading } = useSafarisTree(1); // fetch from API
 
   const [activeSafari, setActiveSafari] = React.useState<Safari | null>(null);
 
   // 🔹 Wait for categories to load, then find the safari
   React.useEffect(() => {
-    if (loading) return;
+    if (isLoading) return;
 
     let foundSafari: Safari | undefined;
     for (const c of categories) {
@@ -28,7 +29,7 @@ export function SafariDetailRoute() {
     }
 
     setActiveSafari(foundSafari ?? null);
-  }, [categories, categoryId, safariId, loading]);
+  }, [categories, categoryId, safariId, isLoading]);
 
   /* ================= ENGAGEMENT TIMER ================= */
   React.useEffect(() => {
@@ -53,7 +54,7 @@ export function SafariDetailRoute() {
   }, [safariId]);
   /* =================================================== */
 
-  if (loading) return <div>Loading safari...</div>;
+  if (isLoading) return <div><SafariLoader /></div>;
   if (!activeSafari) return <div>Safari not found</div>;
 
   return <SafariDetail safari={activeSafari} onBack={() => navigate(-1)} />;

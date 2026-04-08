@@ -1,7 +1,8 @@
 import type { ParkSection } from "./NationalParksInfo";
 
-export const conservanciesData: ParkSection[] = [
- {
+export const conservanciesData: ParkSection[] = 
+[
+    {
         id:"conservancy",
         image: "/images/conservancies/kenya/pajeta.jpg",
         gallery: [

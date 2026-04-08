@@ -20,7 +20,7 @@ export default function AdminReviewsPage() {
   const [showModal, setShowModal] = useState(false);
   const [error, setError] = useState("");
   const API_BASE = import.meta.env.VITE_API_BASE_URL;
-
+  const [loadingId, setLoadingId] = useState<number | null>(null);
   const fetchReviews = async () => {
     try {
       const res = await fetch(`${API_BASE}/reviews/getReviews.php`);
@@ -46,12 +46,19 @@ export default function AdminReviewsPage() {
   };
 
   const handleToggleActive = async (id: number, active: boolean) => {
-    await fetch(`${API_BASE}/reviews/setActiveReview.php`, {
-      method: "POST",
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({ id, is_active: active ? 1 : 0 }),
-    });
-    fetchReviews();
+    setLoadingId(id);
+    try {
+      await fetch(`${API_BASE}/reviews/setActiveReview.php`, {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ id, is_active: active ? 1 : 0 }),
+      });
+      await fetchReviews();
+    } catch {
+      setError("Failed to update review status");
+    } finally {
+      setLoadingId(null);
+    }
   };
 
 
@@ -113,16 +120,22 @@ export default function AdminReviewsPage() {
               </p>
 
               <div className="flex items-center gap-3 mt-auto pt-2">
-                <button
-                  onClick={() => handleToggleActive(r.id, !r.is_active)}
-                  className={`text-xs uppercase tracking-[0.15em] font-light px-4 py-2 border ${
-                    r.is_active
-                      ? "border-green-500 text-green-500 hover:bg-green-500 hover:text-white"
-                      : "border-gray-300 text-gray-700 hover:bg-gray-200"
-                  } transition-colors duration-200`}
-                >
-                  {r.is_active ? "Active" : "Activate"}
-                </button>
+              <button
+                onClick={() => handleToggleActive(r.id, !r.is_active)}
+                disabled={loadingId === r.id}
+                className={`text-xs uppercase tracking-[0.15em] font-light px-4 py-2 border ${
+                  r.is_active
+                    ? "border-green-500 text-green-500 hover:bg-green-500 hover:text-white"
+                    : "border-gray-300 text-gray-700 hover:bg-gray-200"
+                } ${loadingId === r.id ? "opacity-50 cursor-not-allowed" : ""}
+                transition-colors duration-200`}
+              >
+                {loadingId === r.id
+                  ? "Updating..."
+                  : r.is_active
+                  ? "Active"
+                  : "Activate"}
+              </button>
 
                 <button
                   onClick={() => handleDelete(r.id)}

@@ -13,7 +13,7 @@ export default function Bookings() {
   const [filter, setFilter] = useState<string>("all");
 
   // Debounce timer
-  const [debounceTimer, setDebounceTimer] = useState<number | null>(null);
+  const [debounceTimer, setDebounceTimer] = useState<ReturnType<typeof setTimeout> | null>(null);
   const fetchBookings = async (query = "", sortValue = sort, filterValue = filter) => {
     try {
       const params = new URLSearchParams({

@@ -36,8 +36,9 @@ export default function UploadForm({ API_BASE, onUpload, sections }: UploadFormP
     formData.append("document", file);
     formData.append("title", title);
     formData.append("description", description);
-    formData.append("footerName", footerName);
-    formData.append("section", finalSection);
+    formData.append("section", footerName);
+    formData.append("footerName", finalSection);
+
 
     try {
       const res = await fetch(`${API_BASE}/adminUploads/upload.php`, {

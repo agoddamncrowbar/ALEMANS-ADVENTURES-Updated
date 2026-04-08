@@ -1,0 +1,28 @@
+# robots.txt for Alemans Adventures
+# Generated at: 2026-03-30T14:52:14.089Z
+
+User-agent: *
+Allow: /
+Disallow: /admin/
+Disallow: /admin/*
+Disallow: /api/
+Disallow: /private/
+
+# Sitemap location
+Sitemap: https://www.alemansadventures.com/sitemap.xml
+
+# Crawl delay (optional)
+# Crawl-delay: 1
+
+# Host
+Host: https://www.alemansadventures.com
+
+# Block AI bots if desired (uncomment if needed)
+# User-agent: GPTBot
+# Disallow: /
+# 
+# User-agent: CCBot
+# Disallow: /
+# 
+# User-agent: Google-Extended
+# Disallow: /

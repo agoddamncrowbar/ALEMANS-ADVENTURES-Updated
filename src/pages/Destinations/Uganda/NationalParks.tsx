@@ -214,7 +214,7 @@ function ParkDetails({ section }: { section: ParkSection }) {
 
       {/* HERO IMAGE */}
       {section.image && (
-        <div className="w-full h-[360px] overflow-hidden border border-[#1A0A0B]">
+        <div className="w-full h-90 overflow-hidden border border-[#1A0A0B]">
           <img
             src={section.image}
             alt={section.header}

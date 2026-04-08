@@ -10,29 +10,29 @@ export default function DesktopSections({
   basePath: string;
 }) {
   return (
-    <div className="hidden md:flex gap-8 text-xs uppercase tracking-widest relative">
+    <div className="flex justify-center gap-6 lg:gap-8 text-xs uppercase tracking-wider">
       {sections.map((section) => {
-        const isActive = pathname.startsWith(
-          `${basePath}/${section.toLowerCase().replace(/\s+/g, "-")}`
-        );
+        const sectionSlug = section.toLowerCase().replace(/\s+/g, "-");
+        const isActive = pathname === `${basePath}/${sectionSlug}` || 
+                         (pathname === basePath && section === sections[0]);
 
         return (
-          <div key={section} className="relative group">
-            <button
-              onClick={() => onNavigate(section)}
-              className={`relative pb-1 transition-colors duration-200 ${
-                isActive ? "text-white" : "hover:text-white"
+          <button
+            key={section}
+            onClick={() => onNavigate(section)}
+            className={`relative py-1 transition-colors duration-200 font-medium ${
+              isActive 
+                ? "text-[#1A0A0B]" 
+                : "text-gray-500 hover:text-[#1A0A0B]"
+            }`}
+          >
+            {section}
+            <span
+              className={`absolute bottom-0 left-0 w-full h-0.5 bg-[#F5D547] transition-transform duration-300 ${
+                isActive ? "scale-x-100" : "scale-x-0 group-hover:scale-x-100"
               }`}
-            >
-              {section}
-
-              <span
-                className={`absolute bottom-0 left-0 w-full h-0.5 bg-[#F5D547] transition-transform duration-300 origin-left ${
-                  isActive ? "scale-x-100" : "scale-x-0 group-hover:scale-x-100"
-                }`}
-              />
-            </button>
-          </div>
+            />
+          </button>
         );
       })}
     </div>

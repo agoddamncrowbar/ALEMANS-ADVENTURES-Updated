@@ -14,7 +14,7 @@ export default function MobileSections({
       initial={{ height: 0, opacity: 0 }}
       animate={{ height: "auto", opacity: 1 }}
       exit={{ height: 0, opacity: 0 }}
-      className="md:hidden border-t border-[#F5D547]/20 bg-[#120809]/95 overflow-hidden"
+      className="md:hidden border-t border-gray-200 bg-white overflow-hidden"
     >
       {sections.map((section) => (
         <button
@@ -23,7 +23,7 @@ export default function MobileSections({
             onNavigate(section);
             setMenuOpen(false);
           }}
-          className="w-full text-left py-3 px-6 text-xs text-[#F5D547]/80 hover:text-white hover:bg-[#F5D547]/10 uppercase tracking-widest border-l-2 border-transparent hover:border-[#F5D547] transition-all"
+          className="w-full text-left py-3 px-6 text-sm text-gray-600 hover:text-[#1A0A0B] hover:bg-gray-50 uppercase tracking-wider border-l-2 border-transparent hover:border-[#F5D547] transition-all"
         >
           {section}
         </button>

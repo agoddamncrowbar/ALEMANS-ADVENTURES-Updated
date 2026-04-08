@@ -92,7 +92,7 @@ export default function Destinations() {
                 index % 2 === 0 ? '' : 'lg:direction-rtl'
               }`}>
                 {/* Image Side */}
-                <div className={`relative h-[400px] lg:h-[500px] overflow-hidden ${
+                <div className={`relative h-100 lg:h-125 overflow-hidden ${
                   index % 2 === 0 ? 'lg:order-1' : 'lg:order-2'
                 }`}>
                   <img

@@ -1,5 +1,5 @@
 import { useNavigate } from "react-router-dom";
-import { Upload, BookOpen, Star, MapPin, CalendarCheck } from "lucide-react"; // added icons
+import { Upload, BookOpen, Star, MapPin, CalendarCheck, Link } from "lucide-react";
 import { motion } from "framer-motion";
 import AdminHeader from "./components/adminHeader";
 
@@ -37,6 +37,12 @@ export default function AdminIndexPage() {
       icon: <CalendarCheck className="w-6 h-6" strokeWidth={1.5} />,
       action: () => navigate("/admin/bookings"),
     },
+    {
+      title: "Manage Social Links",
+      description: "Update footer social media links like Instagram, Facebook, and more.",
+      icon: <Link className="w-6 h-6" strokeWidth={1.5} />,
+      action: () => navigate("/admin/socials"),
+    }
   ];
 
   return (

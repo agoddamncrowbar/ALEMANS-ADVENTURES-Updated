@@ -1,11 +1,12 @@
-import { useState } from "react";
-import { AnimatePresence } from "framer-motion";
+import { useState, useRef, useEffect } from "react";
+import { AnimatePresence, motion } from "framer-motion";
 import { useNavigate, useLocation } from "react-router-dom";
+import { Search, ChevronDown } from "lucide-react";
 
 import CountrySelector from "./CountrySelector";
 import DesktopSections from "./DesktopSections";
 import MobileSections from "./MobileSections";
-import DestinationSearch from "./DestinationSearch";
+import DestinationSearch from "./search/DestinationSearch";
 
 export default function DestinationsHeader({
   currentCountry = "Kenya",
@@ -13,6 +14,8 @@ export default function DestinationsHeader({
   currentCountry?: string;
 }) {
   const [menuOpen, setMenuOpen] = useState(false);
+  const [searchOpen, setSearchOpen] = useState(false);
+  const searchRef = useRef<HTMLDivElement>(null);
 
   const navigate = useNavigate();
   const location = useLocation();
@@ -27,7 +30,6 @@ export default function DestinationsHeader({
     Zanzibar: "/destinations/zanzibar",
   };
 
-  /** Section → route mapping (THIS IS THE IMPORTANT PART) */
   const sectionRoutes: Record<string, Record<string, string>> = {
     Kenya: {
       "Travel Info": "travel-info",
@@ -70,6 +72,7 @@ export default function DestinationsHeader({
 
   const handleCountryChange = (country: string) => {
     navigate(countryRoutes[country]);
+    setSearchOpen(false);
   };
 
   const handleSectionClick = (section: string) => {
@@ -78,32 +81,98 @@ export default function DestinationsHeader({
 
     navigate(`${countryRoutes[currentCountry]}/${slug}`);
     setMenuOpen(false);
+    setSearchOpen(false);
   };
 
-  return (
-    <div className="bg-[#0F0809] border-b border-[#F5D547]/30 text-[#F5D547]/90 sticky top-16 z-40">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 flex flex-col gap-4 md:flex-row md:items-center md:justify-between">
-        <CountrySelector
-          countries={countries}
-          currentCountry={currentCountry}
-          onChange={handleCountryChange}
-        />
-        <DestinationSearch />
-        <DesktopSections
-          sections={sections}
-          onNavigate={handleSectionClick}
-          pathname={location.pathname}
-          basePath={countryRoutes[currentCountry]}
-        />
+  // Close search when clicking outside
+  useEffect(() => {
+    const handleClickOutside = (event: MouseEvent) => {
+      if (searchRef.current && !searchRef.current.contains(event.target as Node)) {
+        setSearchOpen(false);
+      }
+    };
 
-        <button
-          onClick={() => setMenuOpen(!menuOpen)}
-          className="md:hidden text-[#F5D547] text-sm uppercase tracking-widest hover:text-white transition-colors"
-        >
-          Sections {menuOpen ? "▴" : "▾"}
-        </button>
+    document.addEventListener("mousedown", handleClickOutside);
+    return () => document.removeEventListener("mousedown", handleClickOutside);
+  }, []);
+
+  return (
+    <div className="bg-white border-t border-b border-gray-200 sticky top-16 z-40 shadow-sm">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="flex items-center justify-between h-14 md:h-16">
+          {/* Left Section - Country Selector */}
+          <div className="flex items-center gap-6">
+            <CountrySelector
+              countries={countries}
+              currentCountry={currentCountry}
+              onChange={handleCountryChange}
+            />
+          </div>
+
+          {/* Center Section - Desktop Navigation */}
+          <div className="hidden md:block flex-1">
+            <DesktopSections
+              sections={sections}
+              onNavigate={handleSectionClick}
+              pathname={location.pathname}
+              basePath={countryRoutes[currentCountry]}
+            />
+          </div>
+
+          {/* Right Section - Search Toggle */}
+          <div className="relative" ref={searchRef}>
+            <button
+              onClick={() => setSearchOpen(!searchOpen)}
+              className="flex items-center gap-2 px-3 py-1.5 text-xs uppercase tracking-wider text-gray-600 hover:text-[#1A0A0B] transition-colors border border-gray-300 hover:border-gray-400 bg-white"
+            >
+              <Search size={14} />
+              <span className="hidden sm:inline">Search</span>
+              <ChevronDown 
+                size={12} 
+                className={`transition-transform duration-200 ${searchOpen ? "rotate-180" : ""}`}
+              />
+            </button>
+
+            {/* Expandable Search Panel */}
+            <AnimatePresence>
+              {searchOpen && (
+                <motion.div
+                  initial={{ opacity: 0, y: -10 }}
+                  animate={{ opacity: 1, y: 0 }}
+                  exit={{ opacity: 0, y: -10 }}
+                  transition={{ duration: 0.2 }}
+                  style={{ willChange: "transform" }}
+                  className="
+                    absolute top-full left-1/2 -translate-x-1/2
+                    mt-2
+                    w-[calc(100vw-1.5rem)] sm:w-96
+                    max-w-md
+                    z-50
+                  "
+                >
+                  <DestinationSearch 
+                    onSearchComplete={() => setSearchOpen(false)}
+                  />
+                </motion.div>
+              )}
+            </AnimatePresence>
+          </div>
+
+          {/* Mobile Menu Button */}
+          <button
+            onClick={() => setMenuOpen(!menuOpen)}
+            className="md:hidden flex items-center gap-2 px-3 py-1.5 text-xs uppercase tracking-wider text-gray-600 hover:text-[#1A0A0B] transition-colors border border-gray-300 hover:border-gray-400 bg-white"
+          >
+            Sections
+            <ChevronDown 
+              size={12} 
+              className={`transition-transform duration-200 ${menuOpen ? "rotate-180" : ""}`}
+            />
+          </button>
+        </div>
       </div>
 
+      {/* Mobile Sections Menu */}
       <AnimatePresence>
         {menuOpen && (
           <MobileSections

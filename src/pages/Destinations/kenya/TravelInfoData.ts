@@ -21,7 +21,7 @@ export const travelInfoData: TravelSection[] = [
     header: "Kenya Travel Information",
     content: "",
     subsections: [
-      { subheader: "Kenya", content: "Is named after Mt. Kenya or’’ Kirinyaga ‘’ the mountain of the whiteness" },
+      { subheader: "Kenya", content: "Is named after Mt. Kenya or Kirinyaga, ‘the mountain of the whiteness’" },
       { subheader: "Position", content: "Kenya is part of East Africa, straddles the Equator and is on the Indian Ocean." },
       { subheader: "Area", content: "Kenya covers an area of 583,000 sq kms, 13,000 of which is inland water in the form of Lake Victoria, Largest African Lake and Worlds second." },
       { subheader: "Borders", content: "Kenya is bordered by Tanzania, South Sudan, Uganda, Ethiopia, Somalia and the Indian Ocean." },
